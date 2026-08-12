@@ -1,0 +1,6442 @@
+[
+  {
+    "entity_type": "IN_CIN",
+    "text": "U28129PN1979PLC141032",
+    "score": 0.9,
+    "start": 235,
+    "end": 256,
+    "replacement": "U10433MH2181PTC960013"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RED HERRING",
+    "score": 0.85,
+    "start": 63,
+    "end": 74,
+    "replacement": "Wagner Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Book Running Lead Managers",
+    "score": 0.85,
+    "start": 295,
+    "end": 325,
+    "replacement": "Baldwin Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the SEBI ICDR Regulations",
+    "score": 0.85,
+    "start": 393,
+    "end": 418,
+    "replacement": "Robinson-Lawrence Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI",
+    "score": 0.85,
+    "start": 428,
+    "end": 431,
+    "replacement": "Wolfe LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Registrar of Companies",
+    "score": 0.85,
+    "start": 860,
+    "end": 886,
+    "replacement": "Lewis LLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maharashtra",
+    "score": 0.85,
+    "start": 888,
+    "end": 899,
+    "replacement": "James LLC LLC"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Bombay",
+    "score": 0.85,
+    "start": 903,
+    "end": 909,
+    "replacement": "78161 Calderon River Suite 931, Lake Jeremyport"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Board",
+    "score": 0.85,
+    "start": 1106,
+    "end": 1111,
+    "replacement": "Wyatt Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Registrar of Companies Maharashtra",
+    "score": 0.85,
+    "start": 1258,
+    "end": 1292,
+    "replacement": "Chavez-Flowers and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Registrar of Companies,",
+    "score": 0.85,
+    "start": 2262,
+    "end": 2289,
+    "replacement": "Kelly-Santiago Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Central Processing Centre",
+    "score": 0.85,
+    "start": 2290,
+    "end": 2315,
+    "replacement": "Wong, Lynch and Jackson Ltd"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "cs.connect@kshinternational.com",
+    "score": 1.0,
+    "start": 351,
+    "end": 382,
+    "replacement": "frankgray@example.net"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Village Birdewadi",
+    "score": 0.85,
+    "start": 40,
+    "end": 57,
+    "replacement": "503 Linda Locks, Carlshire"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Chakan Taluka - Khed",
+    "score": 0.85,
+    "start": 59,
+    "end": 79,
+    "replacement": "Emily Rios"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Pune",
+    "score": 0.85,
+    "start": 81,
+    "end": 85,
+    "replacement": "724 John Points Suite 969, Coxberg"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Maharashtra",
+    "score": 0.85,
+    "start": 97,
+    "end": 108,
+    "replacement": "01226 Paul Ranch Suite 848, Lake Jenniferside"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "India",
+    "score": 0.85,
+    "start": 110,
+    "end": 115,
+    "replacement": "514 Moore Alley Suite 828, Port Colleenhaven"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Corporate Office",
+    "score": 0.85,
+    "start": 117,
+    "end": 133,
+    "replacement": "Gonzalez, Brooks and Martin PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Montreal Business Centre",
+    "score": 0.85,
+    "start": 149,
+    "end": 173,
+    "replacement": "George Group Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Off Pallod Farms",
+    "score": 0.85,
+    "start": 175,
+    "end": 191,
+    "replacement": "Hickman LLC and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Baner",
+    "score": 0.85,
+    "start": 193,
+    "end": 198,
+    "replacement": "91171 David Mountains, West Allison"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Sarthak Malvadkar",
+    "score": 0.85,
+    "start": 252,
+    "end": 269,
+    "replacement": "Tracey Hickman"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "cs.connect@kshinternational.com",
+    "score": 0.85,
+    "start": 351,
+    "end": 382,
+    "replacement": "Vaughn, Marquez and Ross Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "This Red Herring Prospectus",
+    "score": 0.85,
+    "start": 1059,
+    "end": 1086,
+    "replacement": "Brooks, Lam and Hayes and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KSH International Limited",
+    "score": 0.85,
+    "start": 2069,
+    "end": 2094,
+    "replacement": "Brown Inc PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "SCRR",
+    "score": 0.85,
+    "start": 2664,
+    "end": 2668,
+    "replacement": "Leah Smith"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 20 4505 3237",
+    "score": 0.75,
+    "start": 324,
+    "end": 341,
+    "replacement": "+1-031-051-8347"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "the Republic of India",
+    "score": 0.85,
+    "start": 934,
+    "end": 955,
+    "replacement": "299 Sanchez Mountains, Leeville"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the “State Government",
+    "score": 0.85,
+    "start": 1091,
+    "end": 1112,
+    "replacement": "Jordan, Henderson and Owens Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Government of India",
+    "score": 0.85,
+    "start": 1121,
+    "end": 1144,
+    "replacement": "Nunez Ltd Inc"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "US",
+    "score": 0.85,
+    "start": 1209,
+    "end": 1211,
+    "replacement": "5133 Amanda Dam, Whitemouth"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "USA",
+    "score": 0.85,
+    "start": 1215,
+    "end": 1218,
+    "replacement": "78108 Tanya Terrace, East Richard"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "U.S.",
+    "score": 0.85,
+    "start": 1226,
+    "end": 1230,
+    "replacement": "60260 Baker Tunnel Suite 468, Mooreport"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "the “United States",
+    "score": 0.85,
+    "start": 1235,
+    "end": 1253,
+    "replacement": "98050 Breanna Parkway, North Susan"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "the United States of America",
+    "score": 0.85,
+    "start": 1262,
+    "end": 1290,
+    "replacement": "19136 Shelly Port, New Brooke"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EU",
+    "score": 0.85,
+    "start": 1354,
+    "end": 1356,
+    "replacement": "Miller, Sandoval and Cunningham LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the European Union",
+    "score": 0.85,
+    "start": 1365,
+    "end": 1383,
+    "replacement": "Harris-Moran and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Sweden",
+    "score": 0.85,
+    "start": 1447,
+    "end": 1453,
+    "replacement": "2475 Albert Road Apt. 183, Davidstad"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "this Red Herring Prospectus",
+    "score": 0.85,
+    "start": 1619,
+    "end": 1646,
+    "replacement": "Suarez LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Financial Data",
+    "score": 0.85,
+    "start": 1648,
+    "end": 1662,
+    "replacement": "Kim PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "a Fiscal/Fiscal Year",
+    "score": 0.85,
+    "start": 2168,
+    "end": 2188,
+    "replacement": "Carr-Archer Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Restated Financial Statements",
+    "score": 0.85,
+    "start": 2544,
+    "end": 2577,
+    "replacement": "Smith, Montoya and Evans Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI ICDR Regulations",
+    "score": 0.85,
+    "start": 827,
+    "end": 848,
+    "replacement": "Mcmillan and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICAI",
+    "score": 0.85,
+    "start": 928,
+    "end": 932,
+    "replacement": "Preston Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Indian Accounting Standards",
+    "score": 0.85,
+    "start": 967,
+    "end": 998,
+    "replacement": "Nelson PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Ind AS",
+    "score": 0.85,
+    "start": 1144,
+    "end": 1150,
+    "replacement": "Cooper, Watts and Farrell PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IFRS",
+    "score": 0.85,
+    "start": 1177,
+    "end": 1181,
+    "replacement": "King-Odonnell Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Company",
+    "score": 0.85,
+    "start": 1524,
+    "end": 1531,
+    "replacement": "Walters LLC Inc"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "United States",
+    "score": 0.85,
+    "start": 1839,
+    "end": 1852,
+    "replacement": "2427 Hoffman Creek, Lake Rebeccaside"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-GAAP Financial Measures",
+    "score": 0.85,
+    "start": 983,
+    "end": 1010,
+    "replacement": "Davenport PLC PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EBITDA",
+    "score": 0.85,
+    "start": 1082,
+    "end": 1088,
+    "replacement": "Jordan Inc LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EBITDA Margin",
+    "score": 0.85,
+    "start": 1090,
+    "end": 1103,
+    "replacement": "Nolan-Flynn Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Adjusted EBITDA",
+    "score": 0.85,
+    "start": 3405,
+    "end": 3420,
+    "replacement": "Clark-Wright Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CARE Analytics and Advisory Private Limited",
+    "score": 0.85,
+    "start": 283,
+    "end": 326,
+    "replacement": "Deleon-Henson Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Offer",
+    "score": 0.85,
+    "start": 455,
+    "end": 460,
+    "replacement": "Brady, Frost and Young and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "https://kshinternational.com/investor-relations/industry-report/.",
+    "score": 0.85,
+    "start": 650,
+    "end": 715,
+    "replacement": "Keith Inc and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CareEdge Research",
+    "score": 0.85,
+    "start": 725,
+    "end": 742,
+    "replacement": "Middleton, Patton and Jenkins Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Promoter Selling Shareholders",
+    "score": 0.85,
+    "start": 1159,
+    "end": 1192,
+    "replacement": "Cochran, Adams and Cobb Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the CARE Report",
+    "score": 0.85,
+    "start": 2638,
+    "end": 2653,
+    "replacement": "Brennan-Garrison and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "INR",
+    "score": 0.85,
+    "start": 971,
+    "end": 974,
+    "replacement": "Velasquez Group LLC"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "U.S",
+    "score": 0.85,
+    "start": 1063,
+    "end": 1066,
+    "replacement": "30365 Lin Trail Suite 586, Sheilaville"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "USD",
+    "score": 0.85,
+    "start": 1087,
+    "end": 1090,
+    "replacement": "94019 Reed Turnpike Suite 698, South Rachelborough"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "United States Dollars",
+    "score": 0.85,
+    "start": 1099,
+    "end": 1120,
+    "replacement": "60883 Reynolds Shores Suite 951, Williamchester"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Reliance",
+    "score": 0.85,
+    "start": 181,
+    "end": 189,
+    "replacement": "Powell-Phillips and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Syndicate",
+    "score": 0.85,
+    "start": 2354,
+    "end": 2363,
+    "replacement": "Fisher Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Stock Exchanges",
+    "score": 0.85,
+    "start": 269,
+    "end": 288,
+    "replacement": "Orr, Gilbert and Turner PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Subbayya Hegde",
+    "score": 0.85,
+    "start": 790,
+    "end": 811,
+    "replacement": "Torres and Sons Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Pushpa Kushal Hegde",
+    "score": 0.85,
+    "start": 813,
+    "end": 832,
+    "replacement": "Lisa Morris"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rajesh Kushal Hegde",
+    "score": 0.85,
+    "start": 834,
+    "end": 853,
+    "replacement": "Michael Dixon"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rohit Kushal Hegde",
+    "score": 0.85,
+    "start": 855,
+    "end": 873,
+    "replacement": "Toni Fitzgerald"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rakhi Girija Shetty",
+    "score": 0.85,
+    "start": 875,
+    "end": 894,
+    "replacement": "Diane Beck"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Dhaulagiri Family Trust",
+    "score": 0.85,
+    "start": 896,
+    "end": 919,
+    "replacement": "Rogers, Cardenas and Potter Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Everest Family Trust",
+    "score": 0.85,
+    "start": 921,
+    "end": 941,
+    "replacement": "Walker-Gonzalez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Makalu Family Trust",
+    "score": 0.85,
+    "start": 943,
+    "end": 962,
+    "replacement": "Sanchez Group PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Broad Family Trust",
+    "score": 0.85,
+    "start": 964,
+    "end": 982,
+    "replacement": "Gibson Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Annapurna Family Trust",
+    "score": 0.85,
+    "start": 984,
+    "end": 1006,
+    "replacement": "Higgins Group Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kanchenjunga Family Trust",
+    "score": 0.85,
+    "start": 1008,
+    "end": 1033,
+    "replacement": "Sanchez-Douglas Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Waterloo Industrial Park VI Private Limited",
+    "score": 0.85,
+    "start": 1038,
+    "end": 1081,
+    "replacement": "Osborne and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Fresh Issue",
+    "score": 0.85,
+    "start": 1355,
+    "end": 1370,
+    "replacement": "Holmes, Williams and Wright Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer for Sale",
+    "score": 0.85,
+    "start": 1808,
+    "end": 1826,
+    "replacement": "Anderson-Marshall PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer Price",
+    "score": 0.85,
+    "start": 2372,
+    "end": 2387,
+    "replacement": "Larson, Dodson and Vance PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Prospectus",
+    "score": 0.85,
+    "start": 2407,
+    "end": 2417,
+    "replacement": "Mcclain, Simmons and Meadows Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "our Promoter Group",
+    "score": 0.85,
+    "start": 146,
+    "end": 164,
+    "replacement": "Manning Group Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Basis of Allotment",
+    "score": 0.85,
+    "start": 598,
+    "end": 620,
+    "replacement": "Walton-Larsen LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Equity Share",
+    "score": 0.85,
+    "start": 1077,
+    "end": 1089,
+    "replacement": "Washington, Allen and Gonzales Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "capital reserve",
+    "score": 0.85,
+    "start": 2150,
+    "end": 2165,
+    "replacement": "Young-Rogers PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Indian Accounting Standard",
+    "score": 0.85,
+    "start": 62,
+    "end": 88,
+    "replacement": "Taylor and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Split of Equity Shares",
+    "score": 0.85,
+    "start": 114,
+    "end": 140,
+    "replacement": "Hernandez, Lewis and Perry LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Company / Net Worth",
+    "score": 0.85,
+    "start": 396,
+    "end": 419,
+    "replacement": "Owens, Brown and Wall Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Split of Equity Shares",
+    "score": 0.85,
+    "start": 509,
+    "end": 531,
+    "replacement": "Shah, Smith and Gilmore PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bonus Issue",
+    "score": 0.85,
+    "start": 536,
+    "end": 547,
+    "replacement": "Woods-Bender LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Statutory Auditors",
+    "score": 0.85,
+    "start": 854,
+    "end": 876,
+    "replacement": "Castaneda-Ashley Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Senior Management",
+    "score": 0.85,
+    "start": 1131,
+    "end": 1148,
+    "replacement": "Adkins, Payne and Morrison and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Materiality Policy",
+    "score": 0.85,
+    "start": 1349,
+    "end": 1371,
+    "replacement": "Robinson-Graham Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Sandesh Bhagwat",
+    "score": 0.85,
+    "start": 1682,
+    "end": 1697,
+    "replacement": "Michael Yates"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Amod Joshi",
+    "score": 0.85,
+    "start": 1704,
+    "end": 1714,
+    "replacement": "Sara Calhoun"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CFO",
+    "score": 0.85,
+    "start": 1716,
+    "end": 1719,
+    "replacement": "Ferguson, Meadows and Vargas Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CS",
+    "score": 0.85,
+    "start": 1740,
+    "end": 1742,
+    "replacement": "Miller Group and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ganesh Prasad",
+    "score": 0.85,
+    "start": 1771,
+    "end": 1784,
+    "replacement": "Catherine Green"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Group Companies",
+    "score": 0.85,
+    "start": 2035,
+    "end": 2050,
+    "replacement": "Lewis-Murphy Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Ind",
+    "score": 0.85,
+    "start": 402,
+    "end": 405,
+    "replacement": "Walton-Decker LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Key Managerial Personnel",
+    "score": 0.85,
+    "start": 827,
+    "end": 851,
+    "replacement": "Ruiz Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Related Party Transaction",
+    "score": 0.85,
+    "start": 991,
+    "end": 1016,
+    "replacement": "Cooke LLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kirtane & Pandit LLP",
+    "score": 0.85,
+    "start": 20,
+    "end": 40,
+    "replacement": "Jones, Bernard and Williams Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Chartered Accountants",
+    "score": 0.85,
+    "start": 42,
+    "end": 63,
+    "replacement": "Gonzalez Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Promoter Group",
+    "score": 0.85,
+    "start": 1539,
+    "end": 1557,
+    "replacement": "Allen Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Secondary Transfer of Equity",
+    "score": 0.85,
+    "start": 2331,
+    "end": 2359,
+    "replacement": "Elliott and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Care Analytics and Advisory Private Limited",
+    "score": 0.85,
+    "start": 2241,
+    "end": 2284,
+    "replacement": "Scott, Wood and Obrien Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Fiscals",
+    "score": 0.85,
+    "start": 741,
+    "end": 748,
+    "replacement": "Paula Martin"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Al-Ahleia Switchgear Co.",
+    "score": 0.85,
+    "start": 1080,
+    "end": 1104,
+    "replacement": "Rodriguez-Johnson LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bharat Bijlee Limited",
+    "score": 0.85,
+    "start": 1106,
+    "end": 1127,
+    "replacement": "Byrd, Rubio and Sanders Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CG Power and Industrial Solutions Limited",
+    "score": 0.85,
+    "start": 1129,
+    "end": 1170,
+    "replacement": "Jones Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Emirates Transformer & Switchgear Limited",
+    "score": 0.85,
+    "start": 1172,
+    "end": 1213,
+    "replacement": "Garcia LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Georgia Transformer Corporation",
+    "score": 0.85,
+    "start": 1215,
+    "end": 1246,
+    "replacement": "Trujillo, Hogan and Knight Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Nidec Industrial Automation India Private Limited",
+    "score": 0.85,
+    "start": 1248,
+    "end": 1297,
+    "replacement": "Patel-Stanley Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Transformers & Rectifiers",
+    "score": 0.85,
+    "start": 1299,
+    "end": 1324,
+    "replacement": "Holland, Smith and Fisher Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "India) Limited",
+    "score": 0.85,
+    "start": 1326,
+    "end": 1340,
+    "replacement": "Hamilton LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Virginia Transformer Corporation",
+    "score": 0.85,
+    "start": 1346,
+    "end": 1378,
+    "replacement": "Zimmerman-Graham Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer Documents",
+    "score": 0.85,
+    "start": 1606,
+    "end": 1625,
+    "replacement": "Sheppard, Nelson and Morton PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Ahlstrom Sweden AB",
+    "score": 0.85,
+    "start": 202,
+    "end": 220,
+    "replacement": "Marshall-Petersen PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Cindus Corporation",
+    "score": 0.85,
+    "start": 222,
+    "end": 240,
+    "replacement": "Morris-Sanchez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Elantas Beck India Limited",
+    "score": 0.85,
+    "start": 242,
+    "end": 268,
+    "replacement": "Keith-Sanchez Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Hindalco Industries Limited",
+    "score": 0.85,
+    "start": 270,
+    "end": 297,
+    "replacement": "Bishop, Gray and Johnson LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Polycom Associates",
+    "score": 0.85,
+    "start": 299,
+    "end": 317,
+    "replacement": "Freeman LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Savli Copper Products Private Limited",
+    "score": 0.85,
+    "start": 319,
+    "end": 356,
+    "replacement": "Ramirez-Carlson LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Union Copper Rod LLC",
+    "score": 0.85,
+    "start": 358,
+    "end": 378,
+    "replacement": "Smith, Vaughan and Miller Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Vedanta Limited Sterlite Copper",
+    "score": 0.85,
+    "start": 384,
+    "end": 415,
+    "replacement": "Freeman-Chang Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "London Metal Exchange",
+    "score": 0.85,
+    "start": 508,
+    "end": 529,
+    "replacement": "Brewer-Henry Inc"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Gujarat",
+    "score": 0.85,
+    "start": 1701,
+    "end": 1708,
+    "replacement": "3634 Kennedy Pines, Ronaldside"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "UAE",
+    "score": 0.85,
+    "start": 1716,
+    "end": 1719,
+    "replacement": "7444 David Fields Suite 182, East Joanna"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Fiscals",
+    "score": 0.85,
+    "start": 1824,
+    "end": 1831,
+    "replacement": "Hardy-Bray PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Power Sector",
+    "score": 0.85,
+    "start": 39,
+    "end": 55,
+    "replacement": "Campbell, Garcia and Lee and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EV",
+    "score": 0.85,
+    "start": 293,
+    "end": 295,
+    "replacement": "White-Smith PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Power Sector",
+    "score": 0.85,
+    "start": 1293,
+    "end": 1305,
+    "replacement": "Hill Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Net Proceeds",
+    "score": 0.85,
+    "start": 371,
+    "end": 387,
+    "replacement": "Terry-Martinez Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Supa Facility",
+    "score": 0.85,
+    "start": 746,
+    "end": 759,
+    "replacement": "Adam Mitchell"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Chakan",
+    "score": 0.85,
+    "start": 895,
+    "end": 901,
+    "replacement": "5204 Wilson Circles Suite 719, East Edwardshire"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Proposed Capital Expenditure",
+    "score": 0.85,
+    "start": 1084,
+    "end": 1116,
+    "replacement": "Miller-Wright PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the KSH International Chakan Internal Kamgar Sangathna",
+    "score": 0.85,
+    "start": 2790,
+    "end": 2844,
+    "replacement": "Obrien-Gibbs and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Supa",
+    "score": 0.85,
+    "start": 157,
+    "end": 161,
+    "replacement": "Jamie Kerr"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ahilyanagar",
+    "score": 0.85,
+    "start": 163,
+    "end": 174,
+    "replacement": "Kevin Patterson"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ahmednagar",
+    "score": 0.85,
+    "start": 185,
+    "end": 195,
+    "replacement": "Amy Choi"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Supa",
+    "score": 0.85,
+    "start": 338,
+    "end": 342,
+    "replacement": "Meza and Sons Ltd"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "MT",
+    "score": 0.85,
+    "start": 648,
+    "end": 650,
+    "replacement": "1232 Eric Lodge, Norrisfort"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Ahilyanagar",
+    "score": 0.85,
+    "start": 699,
+    "end": 710,
+    "replacement": "34471 Sandra Turnpike Apt. 618, Lake Edward"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Supa Facility",
+    "score": 0.85,
+    "start": 2004,
+    "end": 2021,
+    "replacement": "Serrano-Jones and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "empaneled PICC",
+    "score": 0.85,
+    "start": 1860,
+    "end": 1874,
+    "replacement": "Larson-Holloway LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CTC",
+    "score": 0.85,
+    "start": 1879,
+    "end": 1882,
+    "replacement": "Martinez-Barker Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Business - Quality Control, Services",
+    "score": 0.85,
+    "start": 248,
+    "end": 284,
+    "replacement": "Bender-Mason Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Ministry of Commerce and Industry, Government of India",
+    "score": 0.85,
+    "start": 2831,
+    "end": 2885,
+    "replacement": "Miller-Williams Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "the United States",
+    "score": 0.85,
+    "start": 9,
+    "end": 26,
+    "replacement": "401 Suzanne Villages Apt. 490, South April"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CTS",
+    "score": 0.85,
+    "start": 161,
+    "end": 164,
+    "replacement": "Moon-White PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "HTS 8544",
+    "score": 0.85,
+    "start": 818,
+    "end": 826,
+    "replacement": "Walters-Vasquez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maharashtra Sales Tax Department",
+    "score": 0.85,
+    "start": 2245,
+    "end": 2277,
+    "replacement": "Bailey-Cook Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Maharashtra State Tax on Professions, Trades",
+    "score": 0.85,
+    "start": 2284,
+    "end": 2332,
+    "replacement": "Hodge LLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Callings and Employment Act",
+    "score": 0.85,
+    "start": 2334,
+    "end": 2361,
+    "replacement": "Simpson, Bates and Morales PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KSH International Private Limited",
+    "score": 0.85,
+    "start": 2486,
+    "end": 2519,
+    "replacement": "Gibson LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Pune Metropolitan Region Development Authority",
+    "score": 0.85,
+    "start": 2652,
+    "end": 2702,
+    "replacement": "Wilson-Barton PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Net Proceeds",
+    "score": 0.85,
+    "start": 1302,
+    "end": 1314,
+    "replacement": "Sandoval PLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Ministry of Corporate Affairs",
+    "score": 0.85,
+    "start": 175,
+    "end": 208,
+    "replacement": "Brown-Stone PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MCA Portal",
+    "score": 0.85,
+    "start": 211,
+    "end": 221,
+    "replacement": "Garrett-Wolf and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Fiscal 1980",
+    "score": 0.85,
+    "start": 533,
+    "end": 548,
+    "replacement": "Dunn-Pennington Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "RoC",
+    "score": 0.85,
+    "start": 717,
+    "end": 720,
+    "replacement": "09324 Andrea Course Apt. 171, South Sarah"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kanj and Co LLP",
+    "score": 0.85,
+    "start": 2157,
+    "end": 2172,
+    "replacement": "Hicks-Hill Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Practicing Company",
+    "score": 0.85,
+    "start": 2352,
+    "end": 2374,
+    "replacement": "Sanchez-Arnold Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Karunakar N. Bhandary",
+    "score": 0.85,
+    "start": 73,
+    "end": 94,
+    "replacement": "Kyle Francis"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Narayna B. Shetty",
+    "score": 0.85,
+    "start": 176,
+    "end": 193,
+    "replacement": "Benjamin Barton"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Jayaram N. Shetty",
+    "score": 0.85,
+    "start": 198,
+    "end": 215,
+    "replacement": "Gina French"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Red Herring Prospectus",
+    "score": 0.85,
+    "start": 375,
+    "end": 397,
+    "replacement": "Hoover-Campbell LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Trade",
+    "score": 0.85,
+    "start": 1298,
+    "end": 1303,
+    "replacement": "Carpenter, Keller and Grimes Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "COGS",
+    "score": 0.85,
+    "start": 1419,
+    "end": 1423,
+    "replacement": "Washington, Cook and Hines Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Company, Promoters or Directors",
+    "score": 0.85,
+    "start": 2326,
+    "end": 2357,
+    "replacement": "Cantu-Kane Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Independent Chartered Engineer",
+    "score": 0.85,
+    "start": 462,
+    "end": 496,
+    "replacement": "Armstrong and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RW",
+    "score": 0.85,
+    "start": 1279,
+    "end": 1281,
+    "replacement": "Flores Group Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Supa Parner Industrial Park",
+    "score": 0.85,
+    "start": 1385,
+    "end": 1412,
+    "replacement": "Jane Mcneil"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Mauje Palve Khurd",
+    "score": 0.85,
+    "start": 1414,
+    "end": 1431,
+    "replacement": "Marissa Hernandez"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Taluka Parner",
+    "score": 0.85,
+    "start": 1433,
+    "end": 1446,
+    "replacement": "Beth Sanford"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Dist",
+    "score": 0.85,
+    "start": 1448,
+    "end": 1452,
+    "replacement": "Kane-Sawyer Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Ahmednagar",
+    "score": 0.85,
+    "start": 1455,
+    "end": 1465,
+    "replacement": "702 Pitts Drives, South Kimberlyview"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Maharashtra Pollution Control Board for Phase",
+    "score": 0.85,
+    "start": 1781,
+    "end": 1830,
+    "replacement": "Hanson-Sanders Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CTO",
+    "score": 0.85,
+    "start": 1833,
+    "end": 1836,
+    "replacement": "Phelps-Villarreal Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Taloja",
+    "score": 0.85,
+    "start": 415,
+    "end": 421,
+    "replacement": "780 Jimmy Spur Suite 316, Port Cynthiaville"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Supa",
+    "score": 0.85,
+    "start": 606,
+    "end": 610,
+    "replacement": "40050 Howard Meadows Apt. 386, East Gregory"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Manufacturing Facilities",
+    "score": 0.85,
+    "start": 773,
+    "end": 797,
+    "replacement": "Pitts, Harvey and Allen PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Supa Ahilyanagar",
+    "score": 0.85,
+    "start": 996,
+    "end": 1012,
+    "replacement": "Joel King"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ISO 9001:2015",
+    "score": 0.85,
+    "start": 727,
+    "end": 740,
+    "replacement": "Estrada-Nolan Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "TDS",
+    "score": 0.85,
+    "start": 2334,
+    "end": 2337,
+    "replacement": "Byrd-Moore Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "labour welfare fund",
+    "score": 0.85,
+    "start": 2341,
+    "end": 2360,
+    "replacement": "Huerta-Evans Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "GST",
+    "score": 0.85,
+    "start": 2362,
+    "end": 2365,
+    "replacement": "Wright, Bruce and Gonzalez Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "& Goods and Services Tax",
+    "score": 0.85,
+    "start": 179,
+    "end": 203,
+    "replacement": "Rodriguez-James LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MW",
+    "score": 0.85,
+    "start": 1478,
+    "end": 1480,
+    "replacement": "Phillips, Lyons and Johnson Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "₹12.62 million",
+    "score": 0.85,
+    "start": 1860,
+    "end": 1874,
+    "replacement": "Hill-Knight Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Care Ratings Limited",
+    "score": 0.85,
+    "start": 390,
+    "end": 410,
+    "replacement": "Beltran, Lozano and Mcgee LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EURO",
+    "score": 0.85,
+    "start": 2076,
+    "end": 2080,
+    "replacement": "Lawson LLC and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "SEK",
+    "score": 0.85,
+    "start": 2085,
+    "end": 2088,
+    "replacement": "421 Kyle Mill, New Michaelberg"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Objects of the Offer",
+    "score": 0.85,
+    "start": 1258,
+    "end": 1282,
+    "replacement": "Browning LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bank",
+    "score": 0.85,
+    "start": 2482,
+    "end": 2486,
+    "replacement": "Thompson-Anderson PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Individual Promoters",
+    "score": 0.85,
+    "start": 17,
+    "end": 37,
+    "replacement": "Schmidt-Mcintyre and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Individual Promoters Kushal Subbayya Hegde",
+    "score": 0.85,
+    "start": 345,
+    "end": 387,
+    "replacement": "Sloan-Raymond LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Promoter Group",
+    "score": 0.85,
+    "start": 539,
+    "end": 553,
+    "replacement": "Harrell, Brock and Mcdonald Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Independent Directors",
+    "score": 0.85,
+    "start": 1808,
+    "end": 1829,
+    "replacement": "Webster and Sons Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Dinesh Hirachand Munot",
+    "score": 0.85,
+    "start": 2028,
+    "end": 2050,
+    "replacement": "Veronica Coffey"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ajay Shriram Patil",
+    "score": 0.85,
+    "start": 2055,
+    "end": 2073,
+    "replacement": "Holly Gibbs"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Board of Directors",
+    "score": 0.85,
+    "start": 13,
+    "end": 35,
+    "replacement": "Baker Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Maharashtra State Government",
+    "score": 0.85,
+    "start": 980,
+    "end": 1012,
+    "replacement": "Chambers-Chambers PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Maharashtra Industrial Policy",
+    "score": 0.85,
+    "start": 1019,
+    "end": 1052,
+    "replacement": "Carson-Bentley Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MIP",
+    "score": 0.85,
+    "start": 1232,
+    "end": 1235,
+    "replacement": "Hall, Johnson and Henson PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Government of India through Ministry of Commerce and Industry, Department of Commerce,",
+    "score": 0.85,
+    "start": 1902,
+    "end": 1992,
+    "replacement": "Herman-Walker Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Directorate General of Foreign Trade",
+    "score": 0.85,
+    "start": 1993,
+    "end": 2029,
+    "replacement": "Colon, Blankenship and Turner Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Waterloo Motors Private Limited",
+    "score": 0.85,
+    "start": 899,
+    "end": 930,
+    "replacement": "Taylor Inc LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Project Management Services Private Limited",
+    "score": 0.85,
+    "start": 941,
+    "end": 984,
+    "replacement": "Wilson-Young PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Motors",
+    "score": 0.85,
+    "start": 1156,
+    "end": 1169,
+    "replacement": "Price LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Electricals Private Limited",
+    "score": 0.85,
+    "start": 1174,
+    "end": 1201,
+    "replacement": "Horton, Fernandez and Matthews Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Waterloo Industrial Park IV Private Limited",
+    "score": 0.85,
+    "start": 1359,
+    "end": 1402,
+    "replacement": "Mcclure Ltd Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "xv",
+    "score": 0.85,
+    "start": 1560,
+    "end": 1562,
+    "replacement": "Gilbert-Crosby LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "xvii",
+    "score": 0.85,
+    "start": 1663,
+    "end": 1667,
+    "replacement": "Vaughn and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Private Limited",
+    "score": 0.85,
+    "start": 1699,
+    "end": 1714,
+    "replacement": "Sampson-Foley Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Group Entities",
+    "score": 0.85,
+    "start": 2061,
+    "end": 2079,
+    "replacement": "Richardson, Winters and Newman Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Capital Work in Progress and Inventory",
+    "score": 0.85,
+    "start": 173,
+    "end": 211,
+    "replacement": "Hill-Donaldson Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Freehold Land and Leasehold Land",
+    "score": 0.85,
+    "start": 226,
+    "end": 258,
+    "replacement": "Bates Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bank Balances",
+    "score": 0.85,
+    "start": 295,
+    "end": 308,
+    "replacement": "Maddox, Williams and Cook and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bank Balances and Advances and Other Assets",
+    "score": 0.85,
+    "start": 316,
+    "end": 359,
+    "replacement": "Harris, Gallegos and Spencer PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Marine Insurance",
+    "score": 0.85,
+    "start": 398,
+    "end": 414,
+    "replacement": "Li and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Transit Insurance and Burglary Policies",
+    "score": 0.85,
+    "start": 416,
+    "end": 455,
+    "replacement": "Kramer PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "our Board of Directors",
+    "score": 0.85,
+    "start": 1680,
+    "end": 1702,
+    "replacement": "Garrison-Thomas and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Fiscals 2025",
+    "score": 0.85,
+    "start": 2580,
+    "end": 2596,
+    "replacement": "King, Thompson and Guerrero Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Audit Committee",
+    "score": 0.85,
+    "start": 3322,
+    "end": 3337,
+    "replacement": "Smith and Sons PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Cloud Services Vendor",
+    "score": 0.85,
+    "start": 3848,
+    "end": 3869,
+    "replacement": "Smith-Baker and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Pushpa Hegde",
+    "score": 0.85,
+    "start": 2271,
+    "end": 2283,
+    "replacement": "Kelly Reese"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Fresh Issue",
+    "score": 0.85,
+    "start": 1232,
+    "end": 1247,
+    "replacement": "West-Cox PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IPO Committee",
+    "score": 0.85,
+    "start": 1506,
+    "end": 1519,
+    "replacement": "Hayes and Sons PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Designated Stock Exchange",
+    "score": 0.85,
+    "start": 2717,
+    "end": 2746,
+    "replacement": "Acosta Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Securities Contracts (Regulation) Rules",
+    "score": 0.85,
+    "start": 2922,
+    "end": 2965,
+    "replacement": "Ellis-Maynard Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotment",
+    "score": 0.85,
+    "start": 2977,
+    "end": 2986,
+    "replacement": "Boone-Simmons Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Institutional Investors",
+    "score": 0.85,
+    "start": 74,
+    "end": 101,
+    "replacement": "Joseph-Wallace Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Retail Individual Investors",
+    "score": 0.85,
+    "start": 106,
+    "end": 133,
+    "replacement": "Franklin-Jones LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Retail Portion",
+    "score": 0.85,
+    "start": 373,
+    "end": 391,
+    "replacement": "Schultz, Kelley and Nguyen PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Non-Institutional Portion",
+    "score": 0.85,
+    "start": 606,
+    "end": 635,
+    "replacement": "Phillips, Wagner and Jordan Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Institutional Portion",
+    "score": 0.85,
+    "start": 964,
+    "end": 989,
+    "replacement": "Farrell Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Life Insurance Companies and Pension Funds",
+    "score": 0.85,
+    "start": 1758,
+    "end": 1800,
+    "replacement": "Glenn, Jordan and Beasley Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Life Insurance Companies and Pension Funds",
+    "score": 0.85,
+    "start": 2002,
+    "end": 2048,
+    "replacement": "Wilcox-Ross Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "QIB",
+    "score": 0.85,
+    "start": 2529,
+    "end": 2532,
+    "replacement": "Edwards LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Mutual Funds",
+    "score": 0.85,
+    "start": 2582,
+    "end": 2594,
+    "replacement": "Brooks-Hernandez Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Mutual Fund Portion",
+    "score": 0.85,
+    "start": 2799,
+    "end": 2822,
+    "replacement": "Davis Inc Inc"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "Sarthak.malvadkar@kshinterantional.com",
+    "score": 1.0,
+    "start": 2078,
+    "end": 2116,
+    "replacement": "vdavis@example.com"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Company KSH International Limited",
+    "score": 0.85,
+    "start": 655,
+    "end": 688,
+    "replacement": "Hawkins PLC PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Birdewadi Chakan",
+    "score": 0.85,
+    "start": 718,
+    "end": 734,
+    "replacement": "Meagan Jenkins"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Taluka-Khed",
+    "score": 0.85,
+    "start": 736,
+    "end": 747,
+    "replacement": "Teresa Henderson"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Montreal Business Centre Off Pallod Farms",
+    "score": 0.85,
+    "start": 994,
+    "end": 1035,
+    "replacement": "Williams, Roberts and Edwards Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maharashtra at Pune",
+    "score": 0.85,
+    "start": 1288,
+    "end": 1307,
+    "replacement": "Romero, Moore and Olson Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Taluka Khed",
+    "score": 0.85,
+    "start": 1986,
+    "end": 1997,
+    "replacement": "Justin Wilson"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "District Pune",
+    "score": 0.85,
+    "start": 1999,
+    "end": 2012,
+    "replacement": "368 Chelsea Shoals Suite 024, Sandrastad"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Book Running Lead Managers",
+    "score": 0.85,
+    "start": 2203,
+    "end": 2229,
+    "replacement": "White and Sons PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Registrar",
+    "score": 0.85,
+    "start": 2233,
+    "end": 2242,
+    "replacement": "Morales, Thomas and Schultz Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotted Equity Shares",
+    "score": 0.85,
+    "start": 2416,
+    "end": 2438,
+    "replacement": "Reese and Sons Group"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 20 45053237",
+    "score": 0.75,
+    "start": 2053,
+    "end": 2069,
+    "replacement": "+1-675-254-5991"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "45053237",
+    "score": 0.65,
+    "start": 2061,
+    "end": 2069,
+    "replacement": "02290147"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "ksh.ipo@nuvama.com",
+    "score": 1.0,
+    "start": 1992,
+    "end": 2010,
+    "replacement": "ctucker@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "customerservice.mb@nuvama.com",
+    "score": 1.0,
+    "start": 2062,
+    "end": 2091,
+    "replacement": "jason81@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "ksh@icicisecurities.com",
+    "score": 1.0,
+    "start": 2323,
+    "end": 2346,
+    "replacement": "rrodriguez@example.net"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "customercare@icicisecurities.com",
+    "score": 1.0,
+    "start": 2407,
+    "end": 2439,
+    "replacement": "trose@example.org"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "First Bidder",
+    "score": 0.85,
+    "start": 273,
+    "end": 285,
+    "replacement": "Foster PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bidder",
+    "score": 0.85,
+    "start": 320,
+    "end": 326,
+    "replacement": "Harris and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DP ID",
+    "score": 0.85,
+    "start": 329,
+    "end": 334,
+    "replacement": "Roberts-Wilson Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Client ID",
+    "score": 0.85,
+    "start": 336,
+    "end": 345,
+    "replacement": "Jordan, Anderson and Patel and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI ID",
+    "score": 0.85,
+    "start": 347,
+    "end": 353,
+    "replacement": "Hansen, Barnett and Gomez Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "PAN",
+    "score": 0.85,
+    "start": 355,
+    "end": 358,
+    "replacement": "Williams, Smith and Morse LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ASBA Account",
+    "score": 0.85,
+    "start": 416,
+    "end": 428,
+    "replacement": "Patterson, Sullivan and Bowman LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Designated Intermediary(ies",
+    "score": 0.85,
+    "start": 839,
+    "end": 870,
+    "replacement": "Sullivan LLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ASBA",
+    "score": 0.85,
+    "start": 1222,
+    "end": 1226,
+    "replacement": "Stevens, Norris and Cox Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Anchor Investors",
+    "score": 0.85,
+    "start": 1268,
+    "end": 1288,
+    "replacement": "Sanchez PLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Anchor Investor Application Form",
+    "score": 0.85,
+    "start": 1619,
+    "end": 1655,
+    "replacement": "Miller, Harrell and Reese and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Nuvama Wealth Management Limited",
+    "score": 0.85,
+    "start": 1802,
+    "end": 1834,
+    "replacement": "Maxwell-Jones Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Wing A, Building No.",
+    "score": 0.85,
+    "start": 1844,
+    "end": 1864,
+    "replacement": "Schmidt and Sons LLC"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Bandra East",
+    "score": 0.85,
+    "start": 1909,
+    "end": 1920,
+    "replacement": "231 Jonathan Extensions Apt. 127, Webstershire"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Mumbai",
+    "score": 0.85,
+    "start": 1922,
+    "end": 1928,
+    "replacement": "995 Hernandez Cliff Suite 744, West Williamport"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Lokesh Shah/ Soumavo Sarkar",
+    "score": 0.85,
+    "start": 2108,
+    "end": 2135,
+    "replacement": "Hayes-Brown LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Securities Limited ICICI Venture House",
+    "score": 0.85,
+    "start": 2172,
+    "end": 2216,
+    "replacement": "Newman Inc PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Kishan Rastogi",
+    "score": 0.85,
+    "start": 2456,
+    "end": 2470,
+    "replacement": "Janice Carpenter"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 40094400",
+    "score": 0.75,
+    "start": 1969,
+    "end": 1984,
+    "replacement": "+1-079-359-7820"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 6807 7100",
+    "score": 0.75,
+    "start": 2299,
+    "end": 2315,
+    "replacement": "+1-715-182-0377"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "40094400",
+    "score": 0.65,
+    "start": 1976,
+    "end": 1984,
+    "replacement": "88925546"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "prakash.boricha@nuvama.com",
+    "score": 1.0,
+    "start": 399,
+    "end": 425,
+    "replacement": "rschroeder@example.net"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "sheetal.parab@nuvama.com",
+    "score": 1.0,
+    "start": 431,
+    "end": 455,
+    "replacement": "mccormickdeborah@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "ipo@trilegal.com",
+    "score": 1.0,
+    "start": 1081,
+    "end": 1097,
+    "replacement": "cody64@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "kshinternational.ipo@in.mpms.mufg.com",
+    "score": 1.0,
+    "start": 1357,
+    "end": 1394,
+    "replacement": "mathewaguilar@example.org"
+  },
+  {
+    "entity_type": "IN_CIN",
+    "text": "U67190MH1999PTC118368",
+    "score": 1.0,
+    "start": 1664,
+    "end": 1685,
+    "replacement": "U54629MH1486PTC528168"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "siddharth.jadhav@hdfcbank.com",
+    "score": 1.0,
+    "start": 1988,
+    "end": 2017,
+    "replacement": "andrew42@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "sachin.gawade@hdfcbank.com",
+    "score": 1.0,
+    "start": 2019,
+    "end": 2045,
+    "replacement": "stacey73@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "eric.bacha@hdfcbank.com",
+    "score": 1.0,
+    "start": 2046,
+    "end": 2069,
+    "replacement": "ericphillips@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "tushar.gavankar@hdfcbank.com",
+    "score": 1.0,
+    "start": 2071,
+    "end": 2099,
+    "replacement": "stanleynancy@example.net"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "pravin.teli2@hdfcbank.com",
+    "score": 1.0,
+    "start": 2105,
+    "end": 2130,
+    "replacement": "carlamoore@example.org"
+  },
+  {
+    "entity_type": "IN_CIN",
+    "text": "L65920MH1994PLC080618",
+    "score": 1.0,
+    "start": 2287,
+    "end": 2308,
+    "replacement": "U92706MH5379PTC473834"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "Ipocmg@icicibank.com",
+    "score": 1.0,
+    "start": 2489,
+    "end": 2509,
+    "replacement": "mmckee@example.com"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Wing A",
+    "score": 0.85,
+    "start": 232,
+    "end": 238,
+    "replacement": "Valentine, Joyce and Murray LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "G Block",
+    "score": 0.85,
+    "start": 267,
+    "end": 274,
+    "replacement": "Shaw-Barnes and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "ksh.ipo@nuvama.com",
+    "score": 0.85,
+    "start": 379,
+    "end": 397,
+    "replacement": "Rebecca Taylor"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Prakash Boricha",
+    "score": 0.85,
+    "start": 496,
+    "end": 511,
+    "replacement": "Martin Sawyer"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "INZ000166136\nICICI Securities Limited ICICI Venture House",
+    "score": 0.85,
+    "start": 538,
+    "end": 595,
+    "replacement": "Villa, Dawson and Black Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Tower 2A & 2B",
+    "score": 0.85,
+    "start": 984,
+    "end": 997,
+    "replacement": "Miller-Martin Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Senapati",
+    "score": 0.85,
+    "start": 998,
+    "end": 1006,
+    "replacement": "1375 Robert Locks, Joeland"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Lower Parel",
+    "score": 0.85,
+    "start": 1019,
+    "end": 1030,
+    "replacement": "Alfred Galvan"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MUFG Intime India Private Limited",
+    "score": 0.85,
+    "start": 1149,
+    "end": 1182,
+    "replacement": "Santos, Moody and Taylor LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Embassy",
+    "score": 0.85,
+    "start": 1235,
+    "end": 1242,
+    "replacement": "Horton-Taylor Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "1st Floor",
+    "score": 0.85,
+    "start": 1247,
+    "end": 1256,
+    "replacement": "West-Smith Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Vikhroli",
+    "score": 0.85,
+    "start": 1270,
+    "end": 1278,
+    "replacement": "Daniel Hernandez"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "India Telephone",
+    "score": 0.85,
+    "start": 1316,
+    "end": 1331,
+    "replacement": "Lynch, Henderson and Parsons and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Shanti Gopalkrishnan SEBI Registration No",
+    "score": 0.85,
+    "start": 1506,
+    "end": 1547,
+    "replacement": "Anthony Barnes"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "INR000004058",
+    "score": 0.85,
+    "start": 1550,
+    "end": 1562,
+    "replacement": "Bryant, Rodriguez and Stein PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CIN",
+    "score": 0.85,
+    "start": 1659,
+    "end": 1662,
+    "replacement": "Smith, Robertson and Allen and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer Escrow Collection Bank HDFC Bank Limited\nHDFC Bank Limited",
+    "score": 0.85,
+    "start": 1697,
+    "end": 1765,
+    "replacement": "Patterson-Mendez and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FIG-OPS Department",
+    "score": 0.85,
+    "start": 1767,
+    "end": 1785,
+    "replacement": "Butler, Beck and Miller LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Kanjurmarg",
+    "score": 0.85,
+    "start": 1863,
+    "end": 1873,
+    "replacement": "Joseph Romero"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Eric Bacha/",
+    "score": 0.85,
+    "start": 2173,
+    "end": 2184,
+    "replacement": "Kristen Myers DDS"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Pravin Teli/",
+    "score": 0.85,
+    "start": 2200,
+    "end": 2212,
+    "replacement": "Veronica King"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Siddharth Jadhav/ Tushar Gavankar",
+    "score": 0.85,
+    "start": 2213,
+    "end": 2246,
+    "replacement": "Richard Cooper"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "5th Floor",
+    "score": 0.85,
+    "start": 2383,
+    "end": 2392,
+    "replacement": "Sandoval, Garcia and Perkins LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Varun Badai",
+    "score": 0.85,
+    "start": 2553,
+    "end": 2564,
+    "replacement": "Harold Morgan"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 22 4009 4400",
+    "score": 0.75,
+    "start": 354,
+    "end": 371,
+    "replacement": "+1-277-221-7043"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 4079 1000",
+    "score": 0.75,
+    "start": 1109,
+    "end": 1125,
+    "replacement": "+1-030-548-6874"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 81081 14949",
+    "score": 0.75,
+    "start": 1333,
+    "end": 1348,
+    "replacement": "+1-034-505-4156"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 30752929",
+    "score": 0.75,
+    "start": 1928,
+    "end": 1943,
+    "replacement": "+1-676-527-7584"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 30752928",
+    "score": 0.75,
+    "start": 1945,
+    "end": 1960,
+    "replacement": "+1-161-692-8451"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "022-68052182",
+    "score": 0.75,
+    "start": 2469,
+    "end": 2481,
+    "replacement": "+1-154-479-6275"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "30752929",
+    "score": 0.65,
+    "start": 1935,
+    "end": 1943,
+    "replacement": "70596401"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "30752928",
+    "score": 0.65,
+    "start": 1952,
+    "end": 1960,
+    "replacement": "65820297"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "30752914",
+    "score": 0.65,
+    "start": 1972,
+    "end": 1980,
+    "replacement": "02135569"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "68052182",
+    "score": 0.65,
+    "start": 2473,
+    "end": 2481,
+    "replacement": "09275571"
+  },
+  {
+    "entity_type": "IN_CIN",
+    "text": "L65190GJ1994PLC021012",
+    "score": 1.0,
+    "start": 40,
+    "end": 61,
+    "replacement": "U92856MH5431PTC027868"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "HDFC Bank Limited\nHDFC Bank Limited",
+    "score": 0.85,
+    "start": 62,
+    "end": 97,
+    "replacement": "Green LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Bank Limited\nCapital Market Division",
+    "score": 0.85,
+    "start": 655,
+    "end": 697,
+    "replacement": "Lewis-Carr Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SCSBs",
+    "score": 0.85,
+    "start": 1595,
+    "end": 1600,
+    "replacement": "Gonzalez-Taylor Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Designated SCSB Branches",
+    "score": 0.85,
+    "start": 1808,
+    "end": 1836,
+    "replacement": "Thompson-Reeves Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Syndicate/Sub Syndicate",
+    "score": 0.85,
+    "start": 1927,
+    "end": 1950,
+    "replacement": "Ponce, Downs and Contreras Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RTA",
+    "score": 0.85,
+    "start": 1983,
+    "end": 1986,
+    "replacement": "Pierce LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CDP",
+    "score": 0.85,
+    "start": 1990,
+    "end": 1993,
+    "replacement": "Joseph Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Application\tForms",
+    "score": 0.85,
+    "start": 2017,
+    "end": 2034,
+    "replacement": "Leon PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Mechanism",
+    "score": 0.85,
+    "start": 2261,
+    "end": 2274,
+    "replacement": "Galloway and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Specified Locations",
+    "score": 0.85,
+    "start": 597,
+    "end": 616,
+    "replacement": "Johnson-Spencer LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Broker Centres",
+    "score": 0.85,
+    "start": 950,
+    "end": 968,
+    "replacement": "Lara-Arnold PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Share Transfer Agents",
+    "score": 0.85,
+    "start": 1252,
+    "end": 1273,
+    "replacement": "Jones Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Designated CDP Locations",
+    "score": 0.85,
+    "start": 1747,
+    "end": 1775,
+    "replacement": "Mendoza, Jenkins and Ortiz PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Statutory Auditors",
+    "score": 0.85,
+    "start": 2230,
+    "end": 2248,
+    "replacement": "Martinez LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kirtane & Pandit",
+    "score": 0.85,
+    "start": 2250,
+    "end": 2266,
+    "replacement": "Cole Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "LLP",
+    "score": 0.85,
+    "start": 2268,
+    "end": 2271,
+    "replacement": "Anderson-Calderon PLC"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "parag.pansare@kirtanepandit.com",
+    "score": 1.0,
+    "start": 1269,
+    "end": 1300,
+    "replacement": "katrinaanderson@example.net"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "hitesh.ramani@citi.com",
+    "score": 1.0,
+    "start": 1803,
+    "end": 1825,
+    "replacement": "guerraapril@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "pro@eximbankindia.in",
+    "score": 1.0,
+    "start": 2091,
+    "end": 2111,
+    "replacement": "fernandodonovan@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "sharmila.joshi@indusind.com",
+    "score": 1.0,
+    "start": 2296,
+    "end": 2323,
+    "replacement": "stacey84@example.org"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "cherag.gyara@icicibank.com",
+    "score": 1.0,
+    "start": 2569,
+    "end": 2595,
+    "replacement": "james84@example.org"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kanj & Co. LLP",
+    "score": 0.85,
+    "start": 635,
+    "end": 649,
+    "replacement": "Turner, Ferguson and Shaw and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Company\nKirtane & Pandit",
+    "score": 0.85,
+    "start": 1093,
+    "end": 1117,
+    "replacement": "David, Moore and Hopkins Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Gopal House",
+    "score": 0.85,
+    "start": 1165,
+    "end": 1176,
+    "replacement": "Gail Bradshaw"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Company\nCitibank N.A.",
+    "score": 0.85,
+    "start": 1582,
+    "end": 1603,
+    "replacement": "Bryan Inc Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Export-Import Bank of India",
+    "score": 0.85,
+    "start": 1826,
+    "end": 1853,
+    "replacement": "Fry PLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "& 402",
+    "score": 0.85,
+    "start": 1878,
+    "end": 1883,
+    "replacement": "Clark, Armstrong and Montgomery Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Bhandarkar",
+    "score": 0.85,
+    "start": 1931,
+    "end": 1941,
+    "replacement": "Mr. Dylan Frye MD"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Shivaji Nagar",
+    "score": 0.85,
+    "start": 1947,
+    "end": 1960,
+    "replacement": "Melinda Evans"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Chitra Raste",
+    "score": 0.85,
+    "start": 2040,
+    "end": 2052,
+    "replacement": "Anthony Gonzales"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IndusInd Bank Limited",
+    "score": 0.85,
+    "start": 2112,
+    "end": 2133,
+    "replacement": "Marshall-Peterson and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Cantonment",
+    "score": 0.85,
+    "start": 2159,
+    "end": 2169,
+    "replacement": "556 Kathleen Passage Apt. 537, West Shannonberg"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Bank Limited\nICICI Bank",
+    "score": 0.85,
+    "start": 2324,
+    "end": 2353,
+    "replacement": "Williams Group PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CBG",
+    "score": 0.85,
+    "start": 2355,
+    "end": 2358,
+    "replacement": "Wright-Grimes and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "3rd Floor",
+    "score": 0.85,
+    "start": 2360,
+    "end": 2369,
+    "replacement": "Peck-Griffith and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Satguru House",
+    "score": 0.85,
+    "start": 2376,
+    "end": 2389,
+    "replacement": "Jimenez PLC Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Tanishq Showroom",
+    "score": 0.85,
+    "start": 2398,
+    "end": 2414,
+    "replacement": "Mr. Alexander Landry MD"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Cherag Gyara",
+    "score": 0.85,
+    "start": 2522,
+    "end": 2534,
+    "replacement": "Cindy Gomez"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Email",
+    "score": 0.85,
+    "start": 2562,
+    "end": 2567,
+    "replacement": "Johnny Khan"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 (20) 6729 5100",
+    "score": 0.75,
+    "start": 1312,
+    "end": 1331,
+    "replacement": "+1-748-016-2456"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 20 6606 4494",
+    "score": 0.75,
+    "start": 1702,
+    "end": 1718,
+    "replacement": "+1-506-098-3584"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 20 2640 3100",
+    "score": 0.75,
+    "start": 2007,
+    "end": 2023,
+    "replacement": "+1-168-784-9912"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91-20-26234000",
+    "score": 0.75,
+    "start": 2215,
+    "end": 2230,
+    "replacement": "+1-165-585-2398"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 8879770456",
+    "score": 0.75,
+    "start": 2490,
+    "end": 2505,
+    "replacement": "+1-680-002-5787"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "26234000",
+    "score": 0.65,
+    "start": 2222,
+    "end": 2230,
+    "replacement": "29825952"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "manisha.shukla@hdfcbank.com",
+    "score": 1.0,
+    "start": 189,
+    "end": 216,
+    "replacement": "vewing@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "rm6.ifbpune@sbi.co.in",
+    "score": 1.0,
+    "start": 430,
+    "end": 451,
+    "replacement": "william88@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "ashishmp@federalbank.co.in",
+    "score": 1.0,
+    "start": 682,
+    "end": 708,
+    "replacement": "thomas05@example.com"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "anand.soni@bajajfinserv.in",
+    "score": 1.0,
+    "start": 888,
+    "end": 914,
+    "replacement": "whitneybrandy@example.net"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "HDFC Bank Limited",
+    "score": 0.85,
+    "start": 0,
+    "end": 17,
+    "replacement": "Soto, Carlson and Baker Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Shukla",
+    "score": 0.85,
+    "start": 149,
+    "end": 155,
+    "replacement": "Paula Lane"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "State Bank of India",
+    "score": 0.85,
+    "start": 217,
+    "end": 236,
+    "replacement": "Williams, Castillo and Warren Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Industrial Finance Branch",
+    "score": 0.85,
+    "start": 238,
+    "end": 263,
+    "replacement": "Hampton, James and Underwood and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Tara Chambers",
+    "score": 0.85,
+    "start": 264,
+    "end": 277,
+    "replacement": "Travis Rodriguez"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Federal Bank Limited Ground Floor",
+    "score": 0.85,
+    "start": 452,
+    "end": 489,
+    "replacement": "Alexander Group and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Sancheti Hospital Shivajinagar",
+    "score": 0.85,
+    "start": 512,
+    "end": 542,
+    "replacement": "Vaughn-Jenkins PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ashish Mathew Pulloor",
+    "score": 0.85,
+    "start": 622,
+    "end": 643,
+    "replacement": "Shelley Fitzgerald"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ashishmp@federalbank.co.in\nBajaj Finance Limited",
+    "score": 0.85,
+    "start": 682,
+    "end": 730,
+    "replacement": "Thornton PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BKC",
+    "score": 0.85,
+    "start": 766,
+    "end": 769,
+    "replacement": "Nguyen, Bates and Fox LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Mumbai Maharashtra India\nTelephone",
+    "score": 0.85,
+    "start": 771,
+    "end": 805,
+    "replacement": "Stevens PLC LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Anand Soni",
+    "score": 0.85,
+    "start": 840,
+    "end": 850,
+    "replacement": "Megan Dillon"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Monitoring Agency",
+    "score": 0.85,
+    "start": 1121,
+    "end": 1138,
+    "replacement": "Schneider, Steele and Bishop and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CARE Ratings Limited",
+    "score": 0.85,
+    "start": 1276,
+    "end": 1296,
+    "replacement": "Ramirez LLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Green Shoe Option",
+    "score": 0.85,
+    "start": 1720,
+    "end": 1737,
+    "replacement": "Wise-Bush Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Draft Red Herring Prospectus",
+    "score": 0.85,
+    "start": 1802,
+    "end": 1834,
+    "replacement": "Burns, Castillo and Castro Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI ICDR Master Circular",
+    "score": 0.85,
+    "start": 2053,
+    "end": 2078,
+    "replacement": "Roberts-Berry PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Securities and Exchange Board of India\nCorporation Finance Department Division of Issues",
+    "score": 0.85,
+    "start": 2107,
+    "end": 2195,
+    "replacement": "Huang-Foster LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Listing SEBI Bhavan",
+    "score": 0.85,
+    "start": 2200,
+    "end": 2219,
+    "replacement": "Regina Roberts"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Bandra",
+    "score": 0.85,
+    "start": 2268,
+    "end": 2274,
+    "replacement": "157 Burgess Forest Apt. 848, Derrickshire"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 20 6769 4648",
+    "score": 0.75,
+    "start": 108,
+    "end": 124,
+    "replacement": "+1-330-833-0165"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 20 2561 8211",
+    "score": 0.75,
+    "start": 352,
+    "end": 368,
+    "replacement": "+1-712-082-6773"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 91586 40360",
+    "score": 0.75,
+    "start": 589,
+    "end": 605,
+    "replacement": "+1-454-019-3802"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 20 7157 6403",
+    "score": 0.75,
+    "start": 807,
+    "end": 823,
+    "replacement": "+1-620-672-4004"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Bid cum Application Forms and the Revision Forms",
+    "score": 0.85,
+    "start": 171,
+    "end": 223,
+    "replacement": "Morrison, Hebert and Rogers Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Financial Express",
+    "score": 0.85,
+    "start": 392,
+    "end": 409,
+    "replacement": "Daniels, Snyder and Mays PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Hindi",
+    "score": 0.85,
+    "start": 512,
+    "end": 517,
+    "replacement": "Nelson-Lamb LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pune",
+    "score": 0.85,
+    "start": 548,
+    "end": 552,
+    "replacement": "Simon Ltd LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Loksatta",
+    "score": 0.85,
+    "start": 564,
+    "end": 572,
+    "replacement": "Lopez, Doyle and Gibbs PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Marathi",
+    "score": 0.85,
+    "start": 594,
+    "end": 601,
+    "replacement": "Todd, Thompson and Chase Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Book Building Process",
+    "score": 0.85,
+    "start": 891,
+    "end": 916,
+    "replacement": "Robertson-Miller Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the UPI Mechanism",
+    "score": 0.85,
+    "start": 1337,
+    "end": 1354,
+    "replacement": "Lopez and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Retail Individual Investors",
+    "score": 0.85,
+    "start": 1377,
+    "end": 1408,
+    "replacement": "Boyle-Smith Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Book Building Process",
+    "score": 0.85,
+    "start": 1129,
+    "end": 1154,
+    "replacement": "Griffin LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BRLM",
+    "score": 0.85,
+    "start": 2204,
+    "end": 2208,
+    "replacement": "Aguilar-Berry LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Underwriting Agreement",
+    "score": 0.85,
+    "start": 2434,
+    "end": 2460,
+    "replacement": "Ward, Young and Contreras Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Basis of Allotment",
+    "score": 0.85,
+    "start": 335,
+    "end": 353,
+    "replacement": "Moore-Parks Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Stock Exchange(s",
+    "score": 0.85,
+    "start": 788,
+    "end": 808,
+    "replacement": "Vaughn-Fowler LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "our Memorandum of Association",
+    "score": 0.85,
+    "start": 1660,
+    "end": 1689,
+    "replacement": "Mendez-Robinson and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Baner Pune",
+    "score": 0.85,
+    "start": 266,
+    "end": 276,
+    "replacement": "79568 Todd Unions Apt. 391, Ricestad"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Sarthak Malvadkar Company",
+    "score": 0.85,
+    "start": 306,
+    "end": 331,
+    "replacement": "Stark Inc Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "PUSHPA KUSHAL HEGDE",
+    "score": 0.85,
+    "start": 622,
+    "end": 641,
+    "replacement": "Stephanie Harris"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "RAJESH KUSHAL HEGDE",
+    "score": 0.85,
+    "start": 643,
+    "end": 662,
+    "replacement": "Carmen Bond"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "ROHIT KUSHAL HEGDE",
+    "score": 0.85,
+    "start": 664,
+    "end": 682,
+    "replacement": "Michael Love"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DHAULAGIRI FAMILY TRUST",
+    "score": 0.85,
+    "start": 705,
+    "end": 728,
+    "replacement": "Davis-Dixon Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EVEREST FAMILY TRUST",
+    "score": 0.85,
+    "start": 730,
+    "end": 750,
+    "replacement": "Anderson-Perry PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MAKALU FAMILY TRUST",
+    "score": 0.85,
+    "start": 752,
+    "end": 771,
+    "replacement": "Hansen Ltd LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BROAD FAMILY TRUST",
+    "score": 0.85,
+    "start": 773,
+    "end": 791,
+    "replacement": "Johnson, Scott and Smith and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ANNAPURNA FAMILY TRUST",
+    "score": 0.85,
+    "start": 793,
+    "end": 815,
+    "replacement": "Jones, Henderson and Graves PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KANCHENJUNGA FAMILY TRUST",
+    "score": 0.85,
+    "start": 817,
+    "end": 842,
+    "replacement": "Michael Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "WATERLOO INDUSTRIAL PARK VI PRIVATE LIMITED",
+    "score": 0.85,
+    "start": 0,
+    "end": 43,
+    "replacement": "Mitchell and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations",
+    "score": 0.85,
+    "start": 904,
+    "end": 1005,
+    "replacement": "Good, Brewer and Fisher Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Qualified Institutional Buyers",
+    "score": 0.85,
+    "start": 1189,
+    "end": 1219,
+    "replacement": "Kane-Knox Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Retail Individual\nInvestors",
+    "score": 0.85,
+    "start": 1253,
+    "end": 1280,
+    "replacement": "Vega Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rohit Kushal Hegde",
+    "score": 0.85,
+    "start": 622,
+    "end": 640,
+    "replacement": "Valdez LLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Floor Price",
+    "score": 0.85,
+    "start": 856,
+    "end": 871,
+    "replacement": "Haney Group PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Cap Price",
+    "score": 0.85,
+    "start": 873,
+    "end": 882,
+    "replacement": "William Davenport"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Securities and Exchange Board",
+    "score": 0.85,
+    "start": 1434,
+    "end": 1467,
+    "replacement": "Good Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ISSUER",
+    "score": 0.85,
+    "start": 1330,
+    "end": 1336,
+    "replacement": "Stephens, Patel and Morrow and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the BSE Limited",
+    "score": 0.85,
+    "start": 216,
+    "end": 231,
+    "replacement": "Reed-Hill Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the “Stock Exchanges",
+    "score": 0.85,
+    "start": 312,
+    "end": 332,
+    "replacement": "Johnson Ltd Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Wealth Management Limited\nNuvama",
+    "score": 0.85,
+    "start": 491,
+    "end": 523,
+    "replacement": "Miranda, Stephenson and Smith and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Wealth Management Limited",
+    "score": 0.85,
+    "start": 524,
+    "end": 549,
+    "replacement": "Garcia Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ksh.ipo@nuvama.com\nTelephone",
+    "score": 0.85,
+    "start": 669,
+    "end": 697,
+    "replacement": "Powers, Brennan and Sanchez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI",
+    "score": 0.85,
+    "start": 770,
+    "end": 775,
+    "replacement": "Gonzales-Fernandez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Securities Limited",
+    "score": 0.85,
+    "start": 776,
+    "end": 794,
+    "replacement": "Gordon LLC and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Shanti Gopalkrishnan\nShanti",
+    "score": 0.85,
+    "start": 1501,
+    "end": 1528,
+    "replacement": "Monique Flores"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CLOSES",
+    "score": 0.85,
+    "start": 2269,
+    "end": 2275,
+    "replacement": "Barton, Cardenas and Young and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CLOSES ON(2",
+    "score": 0.85,
+    "start": 2292,
+    "end": 2303,
+    "replacement": "Boyd, Gutierrez and Hill PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EVEREST",
+    "score": 0.85,
+    "start": 2502,
+    "end": 2509,
+    "replacement": "Hobbs, Buck and Garrett Group"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+91 22 4009 4400",
+    "score": 0.75,
+    "start": 699,
+    "end": 715,
+    "replacement": "+1-870-568-5662"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KSH INTERNATIONAL LIMITED",
+    "score": 0.85,
+    "start": 2246,
+    "end": 2271,
+    "replacement": "Bennett-Webster Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "₹475.00 MILLION",
+    "score": 0.85,
+    "start": 0,
+    "end": 15,
+    "replacement": "Atkinson LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NATIONAL DAILY NEWSPAPER",
+    "score": 0.85,
+    "start": 609,
+    "end": 633,
+    "replacement": "Shaffer Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "PUNE EDITION",
+    "score": 0.85,
+    "start": 718,
+    "end": 730,
+    "replacement": "Faulkner-Grant and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MARATHI",
+    "score": 0.85,
+    "start": 789,
+    "end": 796,
+    "replacement": "Sanchez-Harris Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EXCHANGE BOARD OF INDIA",
+    "score": 0.85,
+    "start": 0,
+    "end": 23,
+    "replacement": "Nielsen LLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Price Band",
+    "score": 0.85,
+    "start": 159,
+    "end": 173,
+    "replacement": "Hardy, Lee and Adams Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Working Day",
+    "score": 0.85,
+    "start": 595,
+    "end": 606,
+    "replacement": "Morrison, Russo and Lopez PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Designated Intermediaries",
+    "score": 0.85,
+    "start": 1017,
+    "end": 1042,
+    "replacement": "Powers, Robinson and Clark LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Application Supported by Blocked Amount",
+    "score": 0.85,
+    "start": 4911,
+    "end": 4954,
+    "replacement": "Krueger-Smith and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Self Certified Syndicate Banks",
+    "score": 0.85,
+    "start": 195,
+    "end": 229,
+    "replacement": "Wilson, Key and Mendoza and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Offer Price",
+    "score": 0.85,
+    "start": 915,
+    "end": 930,
+    "replacement": "Munoz, Harris and Herman PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Documents for Inspection",
+    "score": 0.85,
+    "start": 2293,
+    "end": 2317,
+    "replacement": "Rowe-James PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bandra Kurla Complex",
+    "score": 0.85,
+    "start": 1835,
+    "end": 1855,
+    "replacement": "Howard, Green and Hunt Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Securities Limited",
+    "score": 0.85,
+    "start": 2484,
+    "end": 2508,
+    "replacement": "Garcia-Zavala Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Appasaheb Marathe Marg",
+    "score": 0.85,
+    "start": 2530,
+    "end": 2552,
+    "replacement": "Erica Harris"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Prabhadevi",
+    "score": 0.85,
+    "start": 2554,
+    "end": 2564,
+    "replacement": "0932 Jose Prairie Suite 423, Jerryshire"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Shanti Gopalkrishnan\nSEBI",
+    "score": 0.85,
+    "start": 1621,
+    "end": 1646,
+    "replacement": "Kathryn Pena"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "INR000004058\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD\nBID/ OFFER PERIOD",
+    "score": 0.85,
+    "start": 2081,
+    "end": 2237,
+    "replacement": "Morgan, Hines and Burns Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Audit Committee\nAudit committee",
+    "score": 0.85,
+    "start": 211,
+    "end": 242,
+    "replacement": "Singh, Murray and Oconnor LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Board/ Board of Directors",
+    "score": 0.85,
+    "start": 477,
+    "end": 502,
+    "replacement": "Taylor PLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "https://kshinternational.com/investor-relations/industry-report/",
+    "score": 0.85,
+    "start": 1403,
+    "end": 1467,
+    "replacement": "Stark PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Secretary/",
+    "score": 0.85,
+    "start": 2135,
+    "end": 2145,
+    "replacement": "Warren Inc Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Social Responsibility Committee",
+    "score": 0.85,
+    "start": 88,
+    "end": 119,
+    "replacement": "Duran Group and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Parents Branch",
+    "score": 0.85,
+    "start": 816,
+    "end": 830,
+    "replacement": "Hall, Mann and Smith PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rajesh Branch",
+    "score": 0.85,
+    "start": 832,
+    "end": 845,
+    "replacement": "Antonio Little"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Sangeeta Branch",
+    "score": 0.85,
+    "start": 847,
+    "end": 862,
+    "replacement": "Durham, Hopkins and Smith PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rakhi Branch",
+    "score": 0.85,
+    "start": 864,
+    "end": 876,
+    "replacement": "Jenkins, Smith and Bowen PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rohit Branch\nGroup Companies",
+    "score": 0.85,
+    "start": 881,
+    "end": 909,
+    "replacement": "Smith-Li Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KSH Project Management Services Private Limited",
+    "score": 0.85,
+    "start": 1176,
+    "end": 1223,
+    "replacement": "Drake-Browning Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "KSH Integrated Logistics Private Limited",
+    "score": 0.85,
+    "start": 1327,
+    "end": 1367,
+    "replacement": "Warren and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Private\nLimited",
+    "score": 0.85,
+    "start": 1854,
+    "end": 1869,
+    "replacement": "Fox, Ochoa and Adams Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Independent Chartered Engineer",
+    "score": 0.85,
+    "start": 2064,
+    "end": 2094,
+    "replacement": "Watson Group Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Lalit Muljibhai Sarvaiya",
+    "score": 0.85,
+    "start": 2164,
+    "end": 2188,
+    "replacement": "Wanda Perez"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IPO",
+    "score": 0.85,
+    "start": 2364,
+    "end": 2367,
+    "replacement": "Clayton, Miller and Frey Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the SEBI ICDR Regulations and Section 2(51",
+    "score": 0.85,
+    "start": 105,
+    "end": 147,
+    "replacement": "Davis Group Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MoA/ Memorandum of Association",
+    "score": 0.85,
+    "start": 1084,
+    "end": 1114,
+    "replacement": "Alvarez, Walsh and Warner Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Executive",
+    "score": 0.85,
+    "start": 1337,
+    "end": 1350,
+    "replacement": "Bruce-Newman LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Independent",
+    "score": 0.85,
+    "start": 1351,
+    "end": 1366,
+    "replacement": "Madden, Dickson and Jacobson Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Board of Directors",
+    "score": 0.85,
+    "start": 1471,
+    "end": 1489,
+    "replacement": "Lewis Ltd PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Regulation 2(1)(pp",
+    "score": 0.85,
+    "start": 1729,
+    "end": 1747,
+    "replacement": "Nelson-Glass Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Broad\nFamily Trust",
+    "score": 0.85,
+    "start": 2029,
+    "end": 2047,
+    "replacement": "Lam-Elliott Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Chakan Taluka-Khed",
+    "score": 0.85,
+    "start": 208,
+    "end": 226,
+    "replacement": "Samuel Smith"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Registrar of Companies",
+    "score": 0.85,
+    "start": 307,
+    "end": 333,
+    "replacement": "Matthews Ltd Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Rohit Branch",
+    "score": 0.85,
+    "start": 1622,
+    "end": 1634,
+    "replacement": "2939 Rhodes Plains, Patrickberg"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Sangeeta Ramprasad Rai",
+    "score": 0.85,
+    "start": 1740,
+    "end": 1762,
+    "replacement": "Melissa Miller"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Stakeholders Relationship Committee",
+    "score": 0.85,
+    "start": 0,
+    "end": 35,
+    "replacement": "Mccann, Brown and Kim Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maharashtra\nUnit",
+    "score": 0.85,
+    "start": 279,
+    "end": 295,
+    "replacement": "Jacobs-Austin PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Taluka Panvel",
+    "score": 0.85,
+    "start": 391,
+    "end": 404,
+    "replacement": "Raymond Johnson"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Chakan Industrial Area, Phase II",
+    "score": 0.85,
+    "start": 642,
+    "end": 674,
+    "replacement": "Bowers-Hayes and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Village Khalumbre",
+    "score": 0.85,
+    "start": 676,
+    "end": 693,
+    "replacement": "662 Miller River Suite 311, Ericberg"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Slip",
+    "score": 0.85,
+    "start": 1097,
+    "end": 1101,
+    "replacement": "Emily Rodriguez"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Bid cum Application Form",
+    "score": 0.85,
+    "start": 1215,
+    "end": 1243,
+    "replacement": "Hahn Group LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotted the Equity Shares",
+    "score": 0.85,
+    "start": 1604,
+    "end": 1630,
+    "replacement": "Garcia-Miller Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotted\nAnchor Investor",
+    "score": 0.85,
+    "start": 1770,
+    "end": 1794,
+    "replacement": "Hawkins-Hunt Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotted to Anchor Investors",
+    "score": 0.85,
+    "start": 387,
+    "end": 415,
+    "replacement": "Davis PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the QIB Portion",
+    "score": 0.85,
+    "start": 962,
+    "end": 977,
+    "replacement": "George, Nguyen and Cruz LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SCSB",
+    "score": 0.85,
+    "start": 1921,
+    "end": 1925,
+    "replacement": "Hughes-Miller PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI\nMandate",
+    "score": 0.85,
+    "start": 2085,
+    "end": 2096,
+    "replacement": "Armstrong and Sons Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Mandate",
+    "score": 0.85,
+    "start": 2394,
+    "end": 2405,
+    "replacement": "Jackson-Adams LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Bidder",
+    "score": 0.85,
+    "start": 2426,
+    "end": 2436,
+    "replacement": "Thomas-Jackson LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Escrow Collection Bank",
+    "score": 0.85,
+    "start": 71,
+    "end": 97,
+    "replacement": "Evans-Patton LLC"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "the Refund Bank",
+    "score": 0.85,
+    "start": 99,
+    "end": 114,
+    "replacement": "79937 Derek Avenue Suite 596, Scottchester"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Public Offer Account Bank",
+    "score": 0.85,
+    "start": 116,
+    "end": 145,
+    "replacement": "Mccann, Taylor and Flores Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allotted",
+    "score": 0.85,
+    "start": 224,
+    "end": 232,
+    "replacement": "Mendoza and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Designated Intermediaries",
+    "score": 0.85,
+    "start": 1576,
+    "end": 1605,
+    "replacement": "Carter-Neal Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the ASBA Forms",
+    "score": 0.85,
+    "start": 1725,
+    "end": 1739,
+    "replacement": "Casey, Nguyen and Ramirez Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Designated\nSCSB Branches",
+    "score": 0.85,
+    "start": 1747,
+    "end": 1771,
+    "replacement": "Wilson-Elliott PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Specified Locations for Syndicate",
+    "score": 0.85,
+    "start": 1783,
+    "end": 1816,
+    "replacement": "White, Saunders and Johnson Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Broker Centres for Registered Brokers",
+    "score": 0.85,
+    "start": 1818,
+    "end": 1855,
+    "replacement": "Hahn-Clark LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Designated RTA Locations",
+    "score": 0.85,
+    "start": 1857,
+    "end": 1881,
+    "replacement": "Jones, Abbott and Pope Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Schedule XIII",
+    "score": 0.85,
+    "start": 1989,
+    "end": 2002,
+    "replacement": "Mr. David Hopkins DDS"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Securities Limited\nBroker Centres",
+    "score": 0.85,
+    "start": 2207,
+    "end": 2246,
+    "replacement": "Jones-Ewing Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Floor Price",
+    "score": 0.85,
+    "start": 499,
+    "end": 514,
+    "replacement": "Morales, Hunter and Knapp Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Circulars",
+    "score": 0.85,
+    "start": 842,
+    "end": 855,
+    "replacement": "Stephens-Gibbs LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Public Offer Account",
+    "score": 0.85,
+    "start": 999,
+    "end": 1023,
+    "replacement": "Woodard, Herrera and Little Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Depositories",
+    "score": 0.85,
+    "start": 1195,
+    "end": 1207,
+    "replacement": "Mack Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Collecting Depository",
+    "score": 0.85,
+    "start": 1256,
+    "end": 1277,
+    "replacement": "Jackson-Salazar PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CIR/CFD",
+    "score": 0.85,
+    "start": 1473,
+    "end": 1480,
+    "replacement": "Byrd, Ross and Goodwin Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Retail Individual Investors Bidding",
+    "score": 0.85,
+    "start": 1965,
+    "end": 2000,
+    "replacement": "Smith LLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Designated CDP Locations",
+    "score": 0.85,
+    "start": 2513,
+    "end": 2537,
+    "replacement": "Burgess, Grant and Watts and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Collecting Depository Participants",
+    "score": 0.85,
+    "start": 2579,
+    "end": 2617,
+    "replacement": "Brooks-Ford Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ASBA Forms",
+    "score": 0.85,
+    "start": 625,
+    "end": 635,
+    "replacement": "Vaughn, Hernandez and Cuevas Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Registered Brokers",
+    "score": 0.85,
+    "start": 1052,
+    "end": 1070,
+    "replacement": "Phillips Inc Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "sub-Syndicate",
+    "score": 0.85,
+    "start": 1226,
+    "end": 1239,
+    "replacement": "Thomas, Collins and Gibson and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Designated Stock Exchange",
+    "score": 0.85,
+    "start": 1935,
+    "end": 1960,
+    "replacement": "Webb, Alvarez and Kim Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Draft Red Herring Prospectus/",
+    "score": 0.85,
+    "start": 1965,
+    "end": 1994,
+    "replacement": "Flores-Evans Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Bid Cum Application Form",
+    "score": 0.85,
+    "start": 2536,
+    "end": 2564,
+    "replacement": "Johnson LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NEFT/RTGS/NACH",
+    "score": 0.85,
+    "start": 147,
+    "end": 161,
+    "replacement": "Byrd and Sons Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI/HO/CFD/DIL1/CIR/P/2020/37",
+    "score": 0.85,
+    "start": 1529,
+    "end": 1559,
+    "replacement": "Black PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the UPI Circulars",
+    "score": 0.85,
+    "start": 1656,
+    "end": 1673,
+    "replacement": "Castro-Mullen and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "GSM",
+    "score": 0.85,
+    "start": 1753,
+    "end": 1756,
+    "replacement": "Soto-Lopez Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Fresh Issue",
+    "score": 0.85,
+    "start": 1827,
+    "end": 1839,
+    "replacement": "Foster-Mclaughlin and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Securities\nICICI Securities Limited\nLife Insurance Companies",
+    "score": 0.85,
+    "start": 1839,
+    "end": 1905,
+    "replacement": "Vargas-Price Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Insurance Regulatory and Development Authority of India",
+    "score": 0.85,
+    "start": 1932,
+    "end": 1991,
+    "replacement": "Harris Ltd Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Monitoring Agency Agreement",
+    "score": 0.85,
+    "start": 2102,
+    "end": 2133,
+    "replacement": "Garcia, Wiggins and Lopez LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CARE Ratings Limited\nMonitoring Agency Agreement",
+    "score": 0.85,
+    "start": 2142,
+    "end": 2190,
+    "replacement": "Ellis LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Monitoring Agency",
+    "score": 0.85,
+    "start": 2265,
+    "end": 2286,
+    "replacement": "Rose-Fowler PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Institutional Investors/",
+    "score": 0.85,
+    "start": 452,
+    "end": 480,
+    "replacement": "Carr-Matthews LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FEMA",
+    "score": 0.85,
+    "start": 1442,
+    "end": 1446,
+    "replacement": "Bruce-Williamson Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer Proceeds",
+    "score": 0.85,
+    "start": 953,
+    "end": 971,
+    "replacement": "Mcbride, Sellers and Lawrence Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer\nPension Fund",
+    "score": 0.85,
+    "start": 1226,
+    "end": 1248,
+    "replacement": "Edwards and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Pension Fund Regulatory",
+    "score": 0.85,
+    "start": 1272,
+    "end": 1299,
+    "replacement": "White Ltd and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Development Authority",
+    "score": 0.85,
+    "start": 1304,
+    "end": 1325,
+    "replacement": "Price, Carlson and Andrews Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Development Authority Act",
+    "score": 0.85,
+    "start": 1382,
+    "end": 1407,
+    "replacement": "Tucker PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Financial express",
+    "score": 0.85,
+    "start": 1861,
+    "end": 1878,
+    "replacement": "Arias, Thompson and Jackson LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Bid Amounts",
+    "score": 0.85,
+    "start": 427,
+    "end": 438,
+    "replacement": "Lopez Group PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Bank Limited\nPublic",
+    "score": 0.85,
+    "start": 521,
+    "end": 546,
+    "replacement": "Glenn Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Working Days",
+    "score": 0.85,
+    "start": 1969,
+    "end": 1981,
+    "replacement": "Lee Group PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Refund Bank",
+    "score": 0.85,
+    "start": 2227,
+    "end": 2242,
+    "replacement": "Delgado, Ortiz and Vasquez Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Circular",
+    "score": 0.85,
+    "start": 199,
+    "end": 207,
+    "replacement": "Katherine Miller"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CIR/CFD/14/2012",
+    "score": 0.85,
+    "start": 234,
+    "end": 249,
+    "replacement": "Flynn and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Circulars\nRegistrar Agreement",
+    "score": 0.85,
+    "start": 524,
+    "end": 557,
+    "replacement": "Hill PLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Karta",
+    "score": 0.85,
+    "start": 1103,
+    "end": 1108,
+    "replacement": "Norman PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Share Escrow Agent",
+    "score": 0.85,
+    "start": 311,
+    "end": 333,
+    "replacement": "Dunn-Wilson Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Allottees",
+    "score": 0.85,
+    "start": 564,
+    "end": 573,
+    "replacement": "Hampton-Morrow LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NPCI",
+    "score": 0.85,
+    "start": 929,
+    "end": 933,
+    "replacement": "Carson, Williams and Ball PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ICICI Bank Limited\nStock Exchanges",
+    "score": 0.85,
+    "start": 1146,
+    "end": 1180,
+    "replacement": "Fritz Inc Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Description\nSyndicate",
+    "score": 0.85,
+    "start": 1827,
+    "end": 1848,
+    "replacement": "Potter, Evans and Kidd Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI\nUnified Payments Interface",
+    "score": 0.85,
+    "start": 2330,
+    "end": 2360,
+    "replacement": "Bailey-Montoya Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI Bidder(s",
+    "score": 0.85,
+    "start": 2419,
+    "end": 2431,
+    "replacement": "Rowe and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI/HO/CFD/DIL2/CIR/P/2019/85",
+    "score": 0.85,
+    "start": 732,
+    "end": 762,
+    "replacement": "Matthews, Bell and Page Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI/HO/MIRSD/POD-1/P/CIR/2024/37",
+    "score": 0.85,
+    "start": 829,
+    "end": 862,
+    "replacement": "Martin-Taylor and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI/HO/DEPA-II",
+    "score": 0.85,
+    "start": 1325,
+    "end": 1340,
+    "replacement": "Trujillo PLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI or Stock Exchanges",
+    "score": 0.85,
+    "start": 1443,
+    "end": 1466,
+    "replacement": "Campbell, Ryan and Morris Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SMS",
+    "score": 0.85,
+    "start": 1770,
+    "end": 1773,
+    "replacement": "Roberts-Adams PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Sponsor Banks",
+    "score": 0.85,
+    "start": 1895,
+    "end": 1912,
+    "replacement": "Ochoa, Taylor and Brady Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "UPI PIN",
+    "score": 0.85,
+    "start": 2227,
+    "end": 2234,
+    "replacement": "Riddle Ltd and Sons"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "20220803-40",
+    "score": 0.75,
+    "start": 1267,
+    "end": 1278,
+    "replacement": "+1-232-536-7294"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "20220803",
+    "score": 0.65,
+    "start": 1267,
+    "end": 1275,
+    "replacement": "66711684"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "A.Y.\nAssessment",
+    "score": 0.85,
+    "start": 113,
+    "end": 128,
+    "replacement": "Mayer, Wood and Clements LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BSE Limited\nCalendar Year",
+    "score": 0.85,
+    "start": 138,
+    "end": 163,
+    "replacement": "Smith, Schroeder and Oconnor Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "AIF",
+    "score": 0.85,
+    "start": 280,
+    "end": 283,
+    "replacement": "Reid-Terry Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Central Depository Services",
+    "score": 0.85,
+    "start": 850,
+    "end": 877,
+    "replacement": "Sanders, Donaldson and Summers Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Customs",
+    "score": 0.85,
+    "start": 901,
+    "end": 908,
+    "replacement": "Morris-Campbell PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Service Tax Appellate Tribunal",
+    "score": 0.85,
+    "start": 921,
+    "end": 951,
+    "replacement": "Anderson, Phelps and Kramer Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NSDL",
+    "score": 0.85,
+    "start": 1419,
+    "end": 1423,
+    "replacement": "Williams Ltd Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CDSL",
+    "score": 0.85,
+    "start": 1431,
+    "end": 1435,
+    "replacement": "Martinez and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DP ID\nDepository Participant’s Identification",
+    "score": 0.85,
+    "start": 1471,
+    "end": 1516,
+    "replacement": "Smith-Rubio and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Department for Promotion of Industry and Internal Trade,",
+    "score": 0.85,
+    "start": 1620,
+    "end": 1680,
+    "replacement": "Blankenship, Khan and Turner LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FDI",
+    "score": 0.85,
+    "start": 1810,
+    "end": 1813,
+    "replacement": "Pena LLC Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Bill\nBill",
+    "score": 0.85,
+    "start": 2242,
+    "end": 2251,
+    "replacement": "Steven Martin"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "the Lok Sabha",
+    "score": 0.85,
+    "start": 2308,
+    "end": 2321,
+    "replacement": "Eric Lyons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Central Government",
+    "score": 0.85,
+    "start": 2368,
+    "end": 2390,
+    "replacement": "Patterson Inc Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Foreign Venture Capital Investors",
+    "score": 0.85,
+    "start": 153,
+    "end": 186,
+    "replacement": "Smith Group Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Securities and Exchange Board of India",
+    "score": 0.85,
+    "start": 205,
+    "end": 247,
+    "replacement": "Wheeler PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Foreign Venture Capital Investor",
+    "score": 0.85,
+    "start": 249,
+    "end": 281,
+    "replacement": "Smith-Dominguez Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI\nGoI / Central Government\nGovernment of India",
+    "score": 0.85,
+    "start": 318,
+    "end": 367,
+    "replacement": "Benson-Woods and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "HUF",
+    "score": 0.85,
+    "start": 395,
+    "end": 398,
+    "replacement": "Davis-Shaffer Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "The Institute of Chartered Accountants of India",
+    "score": 0.85,
+    "start": 498,
+    "end": 545,
+    "replacement": "Richardson-Evans Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Companies (Indian Accounting Standards) Rules",
+    "score": 0.85,
+    "start": 687,
+    "end": 736,
+    "replacement": "May Ltd and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Indian Accounting Standard 24",
+    "score": 0.85,
+    "start": 765,
+    "end": 794,
+    "replacement": "Moreno Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Companies (Indian Accounting Standards) Rules",
+    "score": 0.85,
+    "start": 883,
+    "end": 928,
+    "replacement": "Martin, Bell and Lewis Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ISO\nInternational Organization for Standards",
+    "score": 0.85,
+    "start": 1269,
+    "end": 1313,
+    "replacement": "Gillespie PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Mn/ mn\nMillion",
+    "score": 0.85,
+    "start": 1440,
+    "end": 1454,
+    "replacement": "Heath-Miller Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "N.A.",
+    "score": 0.85,
+    "start": 1469,
+    "end": 1473,
+    "replacement": "Goodwin PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NA",
+    "score": 0.85,
+    "start": 1477,
+    "end": 1479,
+    "replacement": "Bell-Jordan and Sons"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "NACH",
+    "score": 0.85,
+    "start": 1495,
+    "end": 1499,
+    "replacement": "1389 Maxwell Spurs, Port Melanieport"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Automated Clearing House",
+    "score": 0.85,
+    "start": 1500,
+    "end": 1533,
+    "replacement": "Holmes PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NEFT",
+    "score": 0.85,
+    "start": 1534,
+    "end": 1538,
+    "replacement": "Myers, Lucas and Bowers and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Resident",
+    "score": 0.85,
+    "start": 1573,
+    "end": 1585,
+    "replacement": "Cruz-Allen Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Payments Corporation of India",
+    "score": 0.85,
+    "start": 1646,
+    "end": 1684,
+    "replacement": "Jones, Oneal and Smith LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Foreign Exchange Management (Deposit) Regulations",
+    "score": 0.85,
+    "start": 1758,
+    "end": 1811,
+    "replacement": "Anderson-Valencia PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Securities Depository Limited",
+    "score": 0.85,
+    "start": 2207,
+    "end": 2245,
+    "replacement": "Diaz-Vega Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NRIs",
+    "score": 0.85,
+    "start": 2413,
+    "end": 2417,
+    "replacement": "Smith Inc Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RBI\nReserve Bank of India\nRegulation S\nRegulation S",
+    "score": 0.85,
+    "start": 266,
+    "end": 317,
+    "replacement": "Lewis-Livingston Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RBI\nReserve Bank of India",
+    "score": 0.85,
+    "start": 383,
+    "end": 408,
+    "replacement": "Mitchell, Marquez and Wang Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SCRA\nSecurities Contracts (Regulation) Act",
+    "score": 0.85,
+    "start": 441,
+    "end": 483,
+    "replacement": "Morales, Davidson and Medina and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI\nSecurities and Exchange Board of India",
+    "score": 0.85,
+    "start": 541,
+    "end": 584,
+    "replacement": "Miller-Miller and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Securities and Exchange Board of India Act",
+    "score": 0.85,
+    "start": 625,
+    "end": 667,
+    "replacement": "Herrera Group PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI AIF Regulations\nSecurities and Exchange Board of India (Alternative Investment Funds) Regulations",
+    "score": 0.85,
+    "start": 674,
+    "end": 776,
+    "replacement": "Hines, Santos and Day LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI BTI Regulations\nSecurities and Exchange Board of India",
+    "score": 0.85,
+    "start": 783,
+    "end": 842,
+    "replacement": "Kim, Ashley and Allen and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI ICDR Master Circular\nSEBI ICDR Master",
+    "score": 0.85,
+    "start": 1106,
+    "end": 1148,
+    "replacement": "Middleton Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI RTA",
+    "score": 0.85,
+    "start": 1629,
+    "end": 1637,
+    "replacement": "Lynch, Parker and Harmon Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI/HO/MIRSD/",
+    "score": 0.85,
+    "start": 1690,
+    "end": 1704,
+    "replacement": "Wilson Ltd and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MIRSD-PoD/P/CIR/2025/91",
+    "score": 0.85,
+    "start": 1704,
+    "end": 1727,
+    "replacement": "Smith, Crawford and Reed PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI SBEB & SE",
+    "score": 0.85,
+    "start": 1748,
+    "end": 1762,
+    "replacement": "Green, Watson and Brady LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Securities and Exchange Board of India (",
+    "score": 0.85,
+    "start": 1775,
+    "end": 1815,
+    "replacement": "Tanner, Wise and Johnson Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Securities and Exchange Board of India (Substantial Acquisition of Shares",
+    "score": 0.85,
+    "start": 1907,
+    "end": 1980,
+    "replacement": "Warren-Baker PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI VCF Regulations\nSecurities and Exchange Board of India",
+    "score": 0.85,
+    "start": 2014,
+    "end": 2073,
+    "replacement": "Jones, Gibson and Ward Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Venture Capital Fund",
+    "score": 0.85,
+    "start": 2075,
+    "end": 2095,
+    "replacement": "Jackson, Moore and Ayala PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SEBI AIF Regulations\nState Government\nGovernment",
+    "score": 0.85,
+    "start": 2139,
+    "end": 2187,
+    "replacement": "Sharp, Perez and Hicks Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "United States Securities Act",
+    "score": 0.85,
+    "start": 2229,
+    "end": 2257,
+    "replacement": "Sanchez Group LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "United States/ U.S.",
+    "score": 0.85,
+    "start": 2365,
+    "end": 2384,
+    "replacement": "Mora-White Inc"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "The United States of America",
+    "score": 0.85,
+    "start": 2390,
+    "end": 2418,
+    "replacement": "53654 Ashley Crest Apt. 238, South Caseymouth"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "ACC",
+    "score": 0.85,
+    "start": 103,
+    "end": 106,
+    "replacement": "Ayala-Collins Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BIS\nBureau of Indian Standards",
+    "score": 0.85,
+    "start": 289,
+    "end": 319,
+    "replacement": "Bryant, Wood and Carter LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BTA",
+    "score": 0.85,
+    "start": 350,
+    "end": 353,
+    "replacement": "Dean, Marshall and Vargas Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "BU\nBillion",
+    "score": 0.85,
+    "start": 380,
+    "end": 390,
+    "replacement": "Oconnor PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CEA",
+    "score": 0.85,
+    "start": 396,
+    "end": 399,
+    "replacement": "Smith Group Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Central Electricity Authority",
+    "score": 0.85,
+    "start": 400,
+    "end": 429,
+    "replacement": "Weaver Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Central Electricity Regulatory Commission",
+    "score": 0.85,
+    "start": 435,
+    "end": 476,
+    "replacement": "Tapia Inc Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "CKM\nCircuit",
+    "score": 0.85,
+    "start": 477,
+    "end": 488,
+    "replacement": "Sweeney-Acosta Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DDUGJY",
+    "score": 0.85,
+    "start": 569,
+    "end": 575,
+    "replacement": "Moreno and Sons Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Deen Dayal",
+    "score": 0.85,
+    "start": 576,
+    "end": 586,
+    "replacement": "Anthony Shea DDS"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DFI\nDevelopment Finance Institution",
+    "score": 0.85,
+    "start": 608,
+    "end": 643,
+    "replacement": "Williams and Sons PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Diesel Generators\nEBITDA\nEarnings Before Interest",
+    "score": 0.85,
+    "start": 683,
+    "end": 732,
+    "replacement": "Haynes-Watson Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Taxes",
+    "score": 0.85,
+    "start": 734,
+    "end": 739,
+    "replacement": "Carpenter PLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Education Management Information System",
+    "score": 0.85,
+    "start": 797,
+    "end": 836,
+    "replacement": "Wilkins, Jones and Bradley Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FHP",
+    "score": 0.85,
+    "start": 984,
+    "end": 987,
+    "replacement": "Brandt, Young and Green LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FSA",
+    "score": 0.85,
+    "start": 1038,
+    "end": 1041,
+    "replacement": "Haynes-Moss LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "FTA",
+    "score": 0.85,
+    "start": 1065,
+    "end": 1068,
+    "replacement": "Nelson-Jones and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "GVA",
+    "score": 0.85,
+    "start": 1156,
+    "end": 1159,
+    "replacement": "Chan PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Air Conditioning",
+    "score": 0.85,
+    "start": 1255,
+    "end": 1271,
+    "replacement": "Garcia Group Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Internal Combustion Engine",
+    "score": 0.85,
+    "start": 1350,
+    "end": 1376,
+    "replacement": "Russell-Herrera and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IEA\nInternational Energy Agency",
+    "score": 0.85,
+    "start": 1377,
+    "end": 1408,
+    "replacement": "Parker-Baker Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "IEBR",
+    "score": 0.85,
+    "start": 1409,
+    "end": 1413,
+    "replacement": "Moore Ltd LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Internal and Extra Budgetary Resources",
+    "score": 0.85,
+    "start": 1414,
+    "end": 1452,
+    "replacement": "Terry, Williams and Huff LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "International Electrotechnical Commission",
+    "score": 0.85,
+    "start": 1457,
+    "end": 1498,
+    "replacement": "Davis and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Industrial Production\nIMF",
+    "score": 0.85,
+    "start": 1512,
+    "end": 1537,
+    "replacement": "Palmer-Byrd LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "International Monetary Fund",
+    "score": 0.85,
+    "start": 1538,
+    "end": 1565,
+    "replacement": "Johnson Group Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Integrated Power Development Scheme",
+    "score": 0.85,
+    "start": 1571,
+    "end": 1606,
+    "replacement": "Adkins, Wright and Murray and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Inter-State Transmission System",
+    "score": 0.85,
+    "start": 1612,
+    "end": 1643,
+    "replacement": "Smith and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Ministry of Statistics and Programme Implementation",
+    "score": 0.85,
+    "start": 1700,
+    "end": 1751,
+    "replacement": "Colon LLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Mega Volt-Amperes",
+    "score": 0.85,
+    "start": 1756,
+    "end": 1773,
+    "replacement": "Pace, Miller and Willis Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MWW",
+    "score": 0.85,
+    "start": 1786,
+    "end": 1789,
+    "replacement": "Osborn and Sons Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Electric Mobility Mission Plan",
+    "score": 0.85,
+    "start": 1817,
+    "end": 1856,
+    "replacement": "Lamb-Davis LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Infrastructure Pipeline",
+    "score": 0.85,
+    "start": 1891,
+    "end": 1923,
+    "replacement": "Williams Group Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "National Monetization Pipeline",
+    "score": 0.85,
+    "start": 1928,
+    "end": 1958,
+    "replacement": "Glass Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "OTG",
+    "score": 0.85,
+    "start": 1996,
+    "end": 1999,
+    "replacement": "Crawford-Reyes Group"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Grill\nPAT",
+    "score": 0.85,
+    "start": 2015,
+    "end": 2025,
+    "replacement": "Daniel Lopez"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "PMAY",
+    "score": 0.85,
+    "start": 2118,
+    "end": 2122,
+    "replacement": "Griffin-Hernandez PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pradhan Mantri Awas Yojana",
+    "score": 0.85,
+    "start": 2123,
+    "end": 2149,
+    "replacement": "Jensen, Holland and Porter PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pradhan Mantri Kisan",
+    "score": 0.85,
+    "start": 2159,
+    "end": 2179,
+    "replacement": "Brown-Ramirez and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Urja Suraksha",
+    "score": 0.85,
+    "start": 2180,
+    "end": 2193,
+    "replacement": "Marvin Robles"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Utthaan Mahabhiyan",
+    "score": 0.85,
+    "start": 2199,
+    "end": 2217,
+    "replacement": "Zachary Stephens"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "PWIL\nPrecision Wires India Limited",
+    "score": 0.85,
+    "start": 2242,
+    "end": 2276,
+    "replacement": "Mayo Ltd LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Quick Service Restaurants",
+    "score": 0.85,
+    "start": 2281,
+    "end": 2306,
+    "replacement": "Stephens-Washington PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Renewable Energy Resources",
+    "score": 0.85,
+    "start": 2378,
+    "end": 2404,
+    "replacement": "Morris, Nelson and Johnson PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RoHS\nRestriction of Hazardous Substances",
+    "score": 0.85,
+    "start": 2495,
+    "end": 2535,
+    "replacement": "Johnson LLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "RPO",
+    "score": 0.85,
+    "start": 2536,
+    "end": 2539,
+    "replacement": "Moreno-Wang and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Solar Energy Corporation of India Limited",
+    "score": 0.85,
+    "start": 2641,
+    "end": 2682,
+    "replacement": "Garcia Ltd and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Trade Infrastructure for Export Scheme",
+    "score": 0.85,
+    "start": 5,
+    "end": 43,
+    "replacement": "Ferguson-Moody Ltd"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "UK",
+    "score": 0.85,
+    "start": 44,
+    "end": 46,
+    "replacement": "96522 Brittany Valley, Robintown"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "United Kingdom",
+    "score": 0.85,
+    "start": 47,
+    "end": 61,
+    "replacement": "929 Mary Valleys Suite 842, Johnsonton"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Underwriters Laboratories",
+    "score": 0.85,
+    "start": 65,
+    "end": 90,
+    "replacement": "Guzman Inc PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "W&C\nWires",
+    "score": 0.85,
+    "start": 91,
+    "end": 100,
+    "replacement": "Smith-Hardin and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EBITDA\nEBITDA",
+    "score": 0.85,
+    "start": 566,
+    "end": 579,
+    "replacement": "Peterson and Sons LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EBITDA Margin\nEBITDA Margin",
+    "score": 0.85,
+    "start": 810,
+    "end": 837,
+    "replacement": "Johnson PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Net Working Capital Days",
+    "score": 0.85,
+    "start": 1546,
+    "end": 1570,
+    "replacement": "Schroeder PLC LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "PAT CAGR",
+    "score": 0.85,
+    "start": 2020,
+    "end": 2028,
+    "replacement": "Jacqueline Mcmahon"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Profit After Tax Margin",
+    "score": 0.85,
+    "start": 2111,
+    "end": 2134,
+    "replacement": "Willis-Rogers LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "EBIT",
+    "score": 0.85,
+    "start": 2361,
+    "end": 2365,
+    "replacement": "Daugherty Ltd Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Total\tEquity",
+    "score": 0.85,
+    "start": 67,
+    "end": 79,
+    "replacement": "Yu, Banks and Thompson PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Operations",
+    "score": 0.85,
+    "start": 195,
+    "end": 205,
+    "replacement": "Preston, Austin and Kelly Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Fresh Issue(1",
+    "score": 0.85,
+    "start": 1337,
+    "end": 1350,
+    "replacement": "Olsen, Gray and Gross LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Sale(2",
+    "score": 0.85,
+    "start": 1447,
+    "end": 1453,
+    "replacement": "Thompson Inc Ltd"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Supa Facility",
+    "score": 0.85,
+    "start": 2095,
+    "end": 2108,
+    "replacement": "029 Mccall Ridge Apt. 917, West Julie"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rajesh Hegde",
+    "score": 0.85,
+    "start": 611,
+    "end": 623,
+    "replacement": "William Jackson"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Hegde",
+    "score": 0.85,
+    "start": 2486,
+    "end": 2498,
+    "replacement": "Underwood Ltd Ltd"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rohit",
+    "score": 0.85,
+    "start": 2534,
+    "end": 2539,
+    "replacement": "Gabriela Smith"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Family Trust",
+    "score": 0.85,
+    "start": 34,
+    "end": 46,
+    "replacement": "Wright Inc LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Malabar India Fund Limited",
+    "score": 0.85,
+    "start": 709,
+    "end": 735,
+    "replacement": "Buchanan-Le Inc"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Salil Ajay Bhargava",
+    "score": 0.85,
+    "start": 814,
+    "end": 833,
+    "replacement": "Nicholas Costa"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ajay Menon",
+    "score": 0.85,
+    "start": 870,
+    "end": 880,
+    "replacement": "Katherine Gray"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Nagayya Shetty",
+    "score": 0.85,
+    "start": 958,
+    "end": 972,
+    "replacement": "Ashley Mendoza"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SM",
+    "score": 0.85,
+    "start": 1223,
+    "end": 1225,
+    "replacement": "Curtis, Mcdaniel and Martin Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Electricals",
+    "score": 0.85,
+    "start": 842,
+    "end": 860,
+    "replacement": "Phillips LLC LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Waterloo Motors",
+    "score": 0.85,
+    "start": 970,
+    "end": 985,
+    "replacement": "Jones and Sons Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Parijat Foundation",
+    "score": 0.85,
+    "start": 1197,
+    "end": 1215,
+    "replacement": "Dennis PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Deposit",
+    "score": 0.85,
+    "start": 1289,
+    "end": 1296,
+    "replacement": "Wheeler-Austin Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "#\nRemuneration",
+    "score": 0.85,
+    "start": 1392,
+    "end": 1406,
+    "replacement": "Johnson, Dunlap and Martin Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Share\tBased Payment Expense\nShare\tBased Payment Expense",
+    "score": 0.85,
+    "start": 1669,
+    "end": 1724,
+    "replacement": "Brown LLC and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pushpa Kushal Hegde",
+    "score": 0.85,
+    "start": 2315,
+    "end": 2334,
+    "replacement": "Ortiz PLC Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Subbayya Hegde*^&",
+    "score": 0.85,
+    "start": 1113,
+    "end": 1137,
+    "replacement": "Fernandez, Guerrero and Evans Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kushal Hegde*^&",
+    "score": 0.85,
+    "start": 1181,
+    "end": 1196,
+    "replacement": "Long PLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rajesh Kushal Hegde*^&",
+    "score": 0.85,
+    "start": 1232,
+    "end": 1254,
+    "replacement": "Brown Inc Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rohit Kushal Hegde*^&",
+    "score": 0.85,
+    "start": 1290,
+    "end": 1312,
+    "replacement": "Phillips Ltd Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Rakhi Girija Shetty&",
+    "score": 0.85,
+    "start": 1347,
+    "end": 1368,
+    "replacement": "Castillo, Davis and Clark Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Dhaulagiri Family Trust&",
+    "score": 0.85,
+    "start": 1452,
+    "end": 1477,
+    "replacement": "Rowland-Wells Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Everest Family Trust&",
+    "score": 0.85,
+    "start": 1499,
+    "end": 1520,
+    "replacement": "Glover-Ruiz Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Makalu Family Trust&",
+    "score": 0.85,
+    "start": 1543,
+    "end": 1564,
+    "replacement": "Davis-Stephens and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Broad Family Trust&",
+    "score": 0.85,
+    "start": 1586,
+    "end": 1605,
+    "replacement": "Mcclure-Wood Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Annapurna Family Trust&",
+    "score": 0.85,
+    "start": 1628,
+    "end": 1651,
+    "replacement": "Baker Group LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Kanchenjunga Family Trust &",
+    "score": 0.85,
+    "start": 1674,
+    "end": 1702,
+    "replacement": "Hood PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maithili Rajesh Hegde&",
+    "score": 0.85,
+    "start": 1799,
+    "end": 1822,
+    "replacement": "Goodwin Ltd Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Katyayani Balasubramanian&",
+    "score": 0.85,
+    "start": 1908,
+    "end": 1935,
+    "replacement": "Barnett PLC Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Transferor\nEquity Shares",
+    "score": 0.85,
+    "start": 2037,
+    "end": 2061,
+    "replacement": "Perez, Brown and Hughes PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Specialized",
+    "score": 0.85,
+    "start": 949,
+    "end": 960,
+    "replacement": "Sheppard-Mcdaniel Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "MoA",
+    "score": 0.85,
+    "start": 2067,
+    "end": 2070,
+    "replacement": "Keith, Alvarez and Miller Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "DM Shetty",
+    "score": 0.85,
+    "start": 2248,
+    "end": 2257,
+    "replacement": "Shaw PLC PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Gopal BO",
+    "score": 0.85,
+    "start": 2262,
+    "end": 2270,
+    "replacement": "Lisa Martinez"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Karunakar Bhandary",
+    "score": 0.85,
+    "start": 2378,
+    "end": 2396,
+    "replacement": "Carrie Joyce"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "SA Shetty",
+    "score": 0.85,
+    "start": 2401,
+    "end": 2410,
+    "replacement": "Stokes and Sons Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Jayaram Shetty",
+    "score": 0.85,
+    "start": 2520,
+    "end": 2534,
+    "replacement": "Miller-Vega and Sons"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Karunakar Hegde",
+    "score": 0.85,
+    "start": 2640,
+    "end": 2655,
+    "replacement": "Lori Flowers MD"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Challan",
+    "score": 0.85,
+    "start": 0,
+    "end": 7,
+    "replacement": "Suzanne Jones"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Karunakar Hegde HUF",
+    "score": 0.85,
+    "start": 148,
+    "end": 167,
+    "replacement": "Hawkins-Arnold LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Narayana B. Shetty",
+    "score": 0.85,
+    "start": 306,
+    "end": 324,
+    "replacement": "Sylvia Smith"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Shubhkamal Leasing",
+    "score": 0.85,
+    "start": 434,
+    "end": 452,
+    "replacement": "Dean, Mills and Barnes Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Investment Private Limited",
+    "score": 0.85,
+    "start": 457,
+    "end": 483,
+    "replacement": "Hernandez PLC PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Rohit Hegde",
+    "score": 0.85,
+    "start": 576,
+    "end": 587,
+    "replacement": "Teresa Buckley"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Vijay Hegde",
+    "score": 0.85,
+    "start": 889,
+    "end": 900,
+    "replacement": "Ashlee Mitchell"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Working Capital",
+    "score": 0.85,
+    "start": 1764,
+    "end": 1779,
+    "replacement": "Beard, Humphrey and Baker Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Specialised Magnet Winding Wire",
+    "score": 0.85,
+    "start": 1868,
+    "end": 1899,
+    "replacement": "Armstrong-Kennedy and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Total Taloja Unit",
+    "score": 0.85,
+    "start": 1936,
+    "end": 1953,
+    "replacement": "Powell-Montgomery Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Chakan Unit",
+    "score": 0.85,
+    "start": 1997,
+    "end": 2008,
+    "replacement": "Morales, Foster and Koch Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Standard Magnet Winding Wire",
+    "score": 0.85,
+    "start": 2106,
+    "end": 2134,
+    "replacement": "Williams Group LLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Unpai",
+    "score": 0.85,
+    "start": 1046,
+    "end": 1051,
+    "replacement": "Alicia Roth"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "State Insurance",
+    "score": 0.85,
+    "start": 1287,
+    "end": 1302,
+    "replacement": "Collins-Cameron Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Labour Welfare\nFund",
+    "score": 0.85,
+    "start": 2176,
+    "end": 2195,
+    "replacement": "Garcia, Melton and Taylor Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Goods and Services Tax&",
+    "score": 0.85,
+    "start": 2244,
+    "end": 2267,
+    "replacement": "Schroeder-Flores Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Facilities/ Instrument",
+    "score": 0.85,
+    "start": 506,
+    "end": 528,
+    "replacement": "Jacobs-Davis Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Non-Institutional Portion(4)(5",
+    "score": 0.85,
+    "start": 907,
+    "end": 937,
+    "replacement": "Mcintyre Group Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "C) Retail Portion(4)(5",
+    "score": 0.85,
+    "start": 1364,
+    "end": 1386,
+    "replacement": "Malone-Camacho Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "post-Offer Equity",
+    "score": 0.85,
+    "start": 1485,
+    "end": 1502,
+    "replacement": "Moody, Jones and Mckinney Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Maximum",
+    "score": 0.85,
+    "start": 1978,
+    "end": 1985,
+    "replacement": "Deleon PLC PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Offer for Sale\nAggregate",
+    "score": 0.85,
+    "start": 2021,
+    "end": 2049,
+    "replacement": "Thompson and Sons Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Offer for Sale",
+    "score": 0.85,
+    "start": 2060,
+    "end": 2074,
+    "replacement": "Johnson Inc LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "00135070\nS.",
+    "score": 0.85,
+    "start": 2463,
+    "end": 2474,
+    "replacement": "Gonzalez, Richardson and Marshall Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "104",
+    "score": 0.85,
+    "start": 2484,
+    "end": 2487,
+    "replacement": "Leblanc, Maldonado and Allen Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pushpakamal",
+    "score": 0.85,
+    "start": 2489,
+    "end": 2500,
+    "replacement": "Griffin, Horne and Wells PLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Deccan Gymkhana Society",
+    "score": 0.85,
+    "start": 2502,
+    "end": 2525,
+    "replacement": "Cooper-Monroe LLC"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "PYC",
+    "score": 0.85,
+    "start": 2561,
+    "end": 2564,
+    "replacement": "Rivas, Davis and Johnson Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Deccan Gymkhana",
+    "score": 0.85,
+    "start": 2583,
+    "end": 2598,
+    "replacement": "Nash and Sons and Sons"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "00135070",
+    "score": 0.65,
+    "start": 2463,
+    "end": 2471,
+    "replacement": "33468007"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Buena Monte",
+    "score": 0.85,
+    "start": 50,
+    "end": 61,
+    "replacement": "Holland PLC Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "NCL",
+    "score": 0.85,
+    "start": 63,
+    "end": 66,
+    "replacement": "King LLC Ltd"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Panchvati",
+    "score": 0.85,
+    "start": 97,
+    "end": 106,
+    "replacement": "6574 Steven Springs Suite 910, Annaport"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Pashan",
+    "score": 0.85,
+    "start": 108,
+    "end": 114,
+    "replacement": "171 Mcneil Route Suite 444, East Zachary"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Erandawane",
+    "score": 0.85,
+    "start": 505,
+    "end": 515,
+    "replacement": "Anthony Mathews"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Pratik Bunglow",
+    "score": 0.85,
+    "start": 621,
+    "end": 635,
+    "replacement": "Powell, Flores and Taylor Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Senapati Bapat Road",
+    "score": 0.85,
+    "start": 637,
+    "end": 656,
+    "replacement": "Jimenez, Phillips and Meadows Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Shivajinagar",
+    "score": 0.85,
+    "start": 679,
+    "end": 691,
+    "replacement": "099 Matthew Station Apt. 875, Meganside"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Model Colony",
+    "score": 0.85,
+    "start": 693,
+    "end": 705,
+    "replacement": "1724 Stacey Isle, East Michaelport"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Gopalkrupa Apartment",
+    "score": 0.85,
+    "start": 796,
+    "end": 816,
+    "replacement": "Stephen Watson"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Bhonde",
+    "score": 0.85,
+    "start": 818,
+    "end": 824,
+    "replacement": "1709 Thomas Fields Apt. 684, Brownberg"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Erandawane",
+    "score": 0.85,
+    "start": 847,
+    "end": 857,
+    "replacement": "56972 Huffman Falls, South Marvinburgh"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Ram Kumar Tiwari",
+    "score": 0.85,
+    "start": 894,
+    "end": 910,
+    "replacement": "Anthony Hayes"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "A-259, JK Road",
+    "score": 0.85,
+    "start": 941,
+    "end": 955,
+    "replacement": "Juarez and Sons PLC"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Govindpura",
+    "score": 0.85,
+    "start": 981,
+    "end": 991,
+    "replacement": "1296 Powell Neck, Smithside"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Bhopal",
+    "score": 0.85,
+    "start": 993,
+    "end": 999,
+    "replacement": "505 Andrew Avenue, East Heather"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "Madhya Pradesh",
+    "score": 0.85,
+    "start": 1011,
+    "end": 1025,
+    "replacement": "2168 Jackson View Apt. 447, Ryanberg"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Indu Jacob",
+    "score": 0.85,
+    "start": 1033,
+    "end": 1043,
+    "replacement": "Steven Howard"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Abhimanshree Society",
+    "score": 0.85,
+    "start": 1079,
+    "end": 1099,
+    "replacement": "Martin Group Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "the Issue, Advertising agency",
+    "score": 0.85,
+    "start": 2242,
+    "end": 2271,
+    "replacement": "Walker and Sons and Sons"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Nuvama",
+    "score": 0.85,
+    "start": 2354,
+    "end": 2360,
+    "replacement": "Johnson, Wagner and Martinez Ltd"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "International Institutional Marketing of the Issue",
+    "score": 0.85,
+    "start": 2448,
+    "end": 2498,
+    "replacement": "Conner, Brooks and Bowman PLC"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "00114193",
+    "score": 0.65,
+    "start": 38,
+    "end": 46,
+    "replacement": "90901001"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "00134926",
+    "score": 0.65,
+    "start": 194,
+    "end": 202,
+    "replacement": "67618472"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "03124510",
+    "score": 0.65,
+    "start": 385,
+    "end": 393,
+    "replacement": "30461849"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "00049801",
+    "score": 0.65,
+    "start": 612,
+    "end": 620,
+    "replacement": "92618914"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "01217000",
+    "score": 0.65,
+    "start": 782,
+    "end": 790,
+    "replacement": "11739348"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "10938958",
+    "score": 0.65,
+    "start": 932,
+    "end": 940,
+    "replacement": "35642087"
+  },
+  {
+    "entity_type": "IN_DIN",
+    "text": "05293084",
+    "score": 0.65,
+    "start": 1065,
+    "end": 1073,
+    "replacement": "37530011"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Domestic Institutional Marketing of the Issue",
+    "score": 0.85,
+    "start": 67,
+    "end": 112,
+    "replacement": "Caldwell, Hernandez and Davis PLC"
+  },
+  {
+    "entity_type": "PERSON",
+    "text": "Nuvama",
+    "score": 0.85,
+    "start": 300,
+    "end": 306,
+    "replacement": "Nathaniel Conway"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Retail Marketing",
+    "score": 0.85,
+    "start": 600,
+    "end": 616,
+    "replacement": "Hall, Hinton and Phillips Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Sponsor Banks",
+    "score": 0.85,
+    "start": 1928,
+    "end": 1941,
+    "replacement": "Garcia and Sons Inc"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Coordinating with Stock Exchanges",
+    "score": 0.85,
+    "start": 2020,
+    "end": 2053,
+    "replacement": "Ward-Rhodes Group"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "HDFC Limited Karve Road",
+    "score": 0.85,
+    "start": 2318,
+    "end": 2341,
+    "replacement": "Wilson, York and Zamora Inc"
+  },
+  {
+    "entity_type": "PHONE_NUMBER",
+    "text": "+ 91 20 6729 5100",
+    "score": 0.75,
+    "start": 2428,
+    "end": 2445,
+    "replacement": "+1-225-579-4155"
+  },
+  {
+    "entity_type": "EMAIL_ADDRESS",
+    "text": "hingnetare@gmail.com",
+    "score": 1.0,
+    "start": 108,
+    "end": 128,
+    "replacement": "danielross@example.com"
+  },
+  {
+    "entity_type": "ORGANIZATION",
+    "text": "Hingne Tare & Associates Flat No.",
+    "score": 0.85,
+    "start": 0,
+    "end": 33,
+    "replacement": "Houston-Vaughn Group"
+  },
+  {
+    "entity_type": "LOCATION",
+    "text": "N.A.",
+    "score": 0.85,
+    "start": 183,
+    "end": 187,
+    "replacement": "212 Tina Vista Apt. 169, Phammouth"
+  }
+]
