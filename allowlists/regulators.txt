@@ -1,0 +1,21 @@
+# Example Organization Allowlist for Regulators and Public Entities
+# Lines starting with # are ignored. Non-Negotiable #7.
+Securities and Exchange Board of India
+SEBI
+Reserve Bank of India
+RBI
+BSE Limited
+BSE
+National Stock Exchange of India Limited
+NSE
+Registrar of Companies
+RoC
+Ministry of Corporate Affairs
+MCA
+Book Running Lead Managers
+BRLMs
+Registrar to the Offer
+Escrow Collection Bank
+Public Offer Account Bank
+Syndicate Members
+Underwriters
