@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+:root {
+  --surface: #e0e5ec;
+  --surface-raised: #e8edf4;
+  --surface-deep: #d1d9e6;
+
+  --shadow-light: rgba(255, 255, 255, 0.85);
+  --shadow-dark: rgba(163, 177, 198, 0.65);
+
+  --shadow-soft-raised: -6px -6px 14px var(--shadow-light), 6px 6px 14px var(--shadow-dark);
+  --shadow-soft-flat: -2px -2px 5px var(--shadow-light), 2px 2px 5px var(--shadow-dark);
+  --shadow-soft-inset: inset -4px -4px 10px var(--shadow-light), inset 4px 4px 10px var(--shadow-dark);
+
+  --shadow-md-raised: -10px -10px 20px var(--shadow-light), 10px 10px 20px var(--shadow-dark);
+  --shadow-md-inset: inset -6px -6px 14px var(--shadow-light), inset 6px 6px 14px var(--shadow-dark);
+
+  --accent: #9b72cf;
+  --accent-hover: #8a5ec4;
+  --accent-light: rgba(155, 114, 207, 0.20);
+  --accent-glow: 0 0 16px rgba(155, 114, 207, 0.35);
+
+  --text-primary: #3a4354;
+  --text-secondary: #64748b;
+  --text-muted: #94a3b8;
+
+  --r-sm: 8px;
+  --r-md: 14px;
+  --r-lg: 22px;
+  --r-xl: 30px;
+  --r-pill: 999px;
+
+  --t-press: 0.12s cubic-bezier(0.4, 0, 0.2, 1);
+  --t-smooth: 0.25s ease;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+
+/* Neumorphic UI utility classes */
+.neu-card {
+  background: var(--surface);
+  border-radius: var(--r-xl);
+  box-shadow: var(--shadow-md-raised);
+  border: none;
+}
+
+.neu-dropzone {
+  background: var(--surface);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-soft-inset);
+  transition: box-shadow var(--t-smooth);
+}
+
+.neu-dropzone:hover, .neu-dropzone.dragover {
+  box-shadow: var(--shadow-md-inset), 0 0 0 2px var(--accent-light);
+}
+
+.neu-input, .neu-select {
+  background: var(--surface);
+  border: none;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft-inset);
+  color: var(--text-primary);
+  outline: none;
+  transition: box-shadow var(--t-smooth);
+}
+
+.neu-input:focus, .neu-select:focus {
+  box-shadow: var(--shadow-soft-inset), 0 0 0 3px var(--accent-light);
+}
+
+.neu-toggle-wrapper {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft-flat);
+}
+
+.neu-toggle {
+  width: 48px;
+  height: 24px;
+  background: var(--surface);
+  border-radius: var(--r-pill);
+  box-shadow: var(--shadow-soft-inset);
+  position: relative;
+  cursor: pointer;
+}
+
+.neu-toggle::after {
+  content: '';
+  position: absolute;
+  top: 3px; left: 3px;
+  width: 18px; height: 18px;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: var(--shadow-soft-raised);
+  transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), background var(--t-smooth);
+}
+
+.neu-toggle.is-on::after {
+  transform: translateX(24px);
+  background: var(--accent);
+}
+
+.neu-btn-primary {
+  background: var(--accent);
+  border: none;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft-flat), var(--accent-glow);
+  color: #ffffff;
+  font-weight: 800;
+  cursor: pointer;
+  transition: transform var(--t-press), box-shadow var(--t-press), background var(--t-smooth);
+}
+
+.neu-btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.neu-btn-primary:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-soft-inset);
+}
+
+.neu-btn-secondary {
+  background: var(--surface);
+  border: none;
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft-raised);
+  color: var(--text-primary);
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform var(--t-press), box-shadow var(--t-press);
+}
+
+.neu-btn-secondary:active {
+  transform: scale(0.98);
+  box-shadow: var(--shadow-soft-inset);
+  color: var(--accent);
+}
+
+.neu-progress-track {
+  height: 10px;
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  box-shadow: var(--shadow-soft-inset);
+  overflow: hidden;
+}
+
+.neu-progress-fill {
+  height: 100%;
+  border-radius: var(--r-pill);
+  background: linear-gradient(90deg, var(--accent), #b892ec);
+  transition: width 0.4s ease;
+}
+
+.stat-badge {
+  background: var(--surface);
+  border-radius: var(--r-md);
+  box-shadow: var(--shadow-soft-flat);
+  padding: 16px;
+  text-align: center;
+}

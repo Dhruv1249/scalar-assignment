@@ -1,0 +1,8 @@
+venv/
+frontend/
+.git/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.docx
+output/
