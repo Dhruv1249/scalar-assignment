@@ -10,12 +10,97 @@ import argparse
 import json
 import os
 import sys
-from typing import List, Dict, Any, Tuple
+from collections import defaultdict
+from typing import List, Dict, Any, Tuple, Set
 
 from document_handler import DocumentHandler, DocumentSegment
 from pii_detector import PIIDetector
 from faker_engine import FakerEngine
 from recognizers.subject_entity import SubjectEntityFilter
+
+STRUCTURAL_LABEL_DENYLIST: Set[str] = {
+    "email", "e-mail", "telephone", "tel", "fax", "phone", "address",
+    "website", "contact", "name", "company", "corporate office",
+    "registered office", "office", "board", "committee", "management",
+    "director", "directors", "sr", "jr", "mr", "mrs", "ms", "dr",
+    "senior", "junior", "chief", "head", "chairman", "chairperson",
+}
+
+def _resolve_overlapping_spans(detections: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Resolve overlapping character spans by keeping the longest span."""
+    grouped: Dict[int, List[Dict[str, Any]]] = defaultdict(list)
+    for det in detections:
+        grouped[det.get("chunk_idx", 0)].append(det)
+        
+    resolved: List[Dict[str, Any]] = []
+    for chunk_idx, chunk_dets in grouped.items():
+        chunk_dets.sort(key=lambda d: (d["start"], -(d["end"] - d["start"])))
+        accepted_spans: List[Dict[str, Any]] = []
+        for det in chunk_dets:
+            overlap = False
+            for acc in accepted_spans:
+                if max(det["start"], acc["start"]) < min(det["end"], acc["end"]):
+                    overlap = True
+                    break
+            if not overlap:
+                accepted_spans.append(det)
+                resolved.append(det)
+    return resolved
+
+def _deduplicate_by_type_priority(detections: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Deduplicate detections by exact text, keeping the highest priority entity type."""
+    priority_order = [
+        "EMAIL_ADDRESS", "PHONE_NUMBER", "CREDIT_CARD", "US_SSN",
+        "IP_ADDRESS", "IN_PAN", "IN_CIN", "IN_DIN", "DATE_OF_BIRTH",
+        "PERSON", "LOCATION", "ORGANIZATION"
+    ]
+    priority_map = {etype: idx for idx, etype in enumerate(priority_order)}
+    
+    grouped: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
+    for det in detections:
+        grouped[det["text"]].append(det)
+        
+    deduplicated: List[Dict[str, Any]] = []
+    for text, group in grouped.items():
+        best_det = min(group, key=lambda d: priority_map.get(d["entity_type"], len(priority_order)))
+        deduplicated.append(best_det)
+        
+    return deduplicated
+
+def _normalize_person_names(replacement_mapping: Dict[str, str], filtered_detections: List[Dict[str, Any]]) -> None:
+    """Normalize person name variants to use consistent fake values across case and substring variations.
+    
+    First unifies case variants (UPPERCASE vs mixed-case) of the same name to
+    share one fake value, preferring the mixed-case variant as canonical.
+    Then maps shorter substring names to their longer form's fake value.
+    """
+    person_entries = [(det["text"], det) for det in filtered_detections if det["entity_type"] == "PERSON"]
+    person_names = {name for name, _ in person_entries}
+    
+    canonical_map: Dict[str, str] = {}
+    for name in sorted(person_names, key=lambda n: (n.lower(), n.isupper())):
+        lower = name.lower()
+        if lower not in canonical_map:
+            canonical_map[lower] = name
+    
+    for name in person_names:
+        lower = name.lower()
+        canonical = canonical_map.get(lower, name)
+        if canonical != name and canonical in replacement_mapping and name in replacement_mapping:
+            replacement_mapping[name] = replacement_mapping[canonical]
+    
+    sorted_names = sorted(
+        [n for n in person_names if n in replacement_mapping],
+        key=len, reverse=True
+    )
+    for i, longer_name in enumerate(sorted_names):
+        for shorter_name in sorted_names[i + 1:]:
+            if shorter_name.lower() in longer_name.lower():
+                replacement_mapping[shorter_name] = replacement_mapping[longer_name]
+                
+    for det in filtered_detections:
+        if det["text"] in replacement_mapping:
+            det["replacement"] = replacement_mapping[det["text"]]
 
 def parse_arguments() -> argparse.Namespace:
     """Parse and return command-line arguments."""
@@ -67,8 +152,6 @@ def main() -> None:
         
     print(f"Detecting PII across {len(chunks)} text chunks...", flush=True)
     raw_detections: List[Dict[str, Any]] = []
-    org_mentions: List[str] = []
-    seen_spans: set = set()
     
     for idx, (combined_text, chunk_segs) in enumerate(chunks):
         results = detector.detect(
@@ -80,27 +163,35 @@ def main() -> None:
             span_text = combined_text[result.start:result.end].strip()
             if not span_text or len(span_text) < 2:
                 continue
+            if "\n" in span_text:
+                continue
                 
-            dedup_key = (result.entity_type, span_text)
-            if dedup_key not in seen_spans:
-                seen_spans.add(dedup_key)
-                detection_record = {
-                    "entity_type": result.entity_type,
-                    "text": span_text,
-                    "score": result.score,
-                    "start": result.start,
-                    "end": result.end,
-                }
-                raw_detections.append(detection_record)
-                
-                if result.entity_type == "ORGANIZATION":
-                    org_mentions.append(span_text)
+            detection_record = {
+                "chunk_idx": idx,
+                "entity_type": result.entity_type,
+                "text": span_text,
+                "score": result.score,
+                "start": result.start,
+                "end": result.end,
+            }
+            raw_detections.append(detection_record)
+            
+    resolved_detections = _resolve_overlapping_spans(raw_detections)
+    dedup_detections = _deduplicate_by_type_priority(resolved_detections)
+    
+    valid_detections: List[Dict[str, Any]] = []
+    for det in dedup_detections:
+        if det["entity_type"] == "PERSON" and det["text"].lower().strip() in STRUCTURAL_LABEL_DENYLIST:
+            continue
+        valid_detections.append(det)
+
+    org_mentions: List[str] = [det["text"] for det in valid_detections if det["entity_type"] == "ORGANIZATION"]
 
     subject_entity = org_filter.detect_subject_entity(org_mentions)
     print(f"Auto-detected Subject Entity (Exempt): {subject_entity or 'None'}", flush=True)
     
     filtered_detections: List[Dict[str, Any]] = []
-    for detection in raw_detections:
+    for detection in valid_detections:
         if org_filter.should_redact(detection["text"], detection["entity_type"]):
             filtered_detections.append(detection)
             
@@ -113,6 +204,8 @@ def main() -> None:
         fake_replacement = faker_engine.get_replacement(orig_text, etype)
         replacement_mapping[orig_text] = fake_replacement
         detection["replacement"] = fake_replacement
+        
+    _normalize_person_names(replacement_mapping, filtered_detections)
         
     output_path = os.path.abspath(args.output)
     output_dir = os.path.dirname(output_path) or "."
@@ -127,8 +220,14 @@ def main() -> None:
     with open(detected_entities_path, "w", encoding="utf-8") as file_handle:
         json.dump(filtered_detections, file_handle, indent=2, ensure_ascii=False)
         
+    normalized_mapping: Dict[str, Dict[str, str]] = {}
+    for det in filtered_detections:
+        etype = det["entity_type"]
+        if etype not in normalized_mapping:
+            normalized_mapping[etype] = {}
+        normalized_mapping[etype][det["text"]] = replacement_mapping.get(det["text"], det.get("replacement", ""))
     with open(mapping_log_path, "w", encoding="utf-8") as file_handle:
-        json.dump(faker_engine.get_mapping_dict(), file_handle, indent=2, ensure_ascii=False)
+        json.dump(normalized_mapping, file_handle, indent=2, ensure_ascii=False)
         
     print(f"Redaction complete.", flush=True)
     print(f"Input Document: {args.input_doc}", flush=True)

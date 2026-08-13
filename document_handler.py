@@ -160,25 +160,44 @@ class DocumentHandler:
         if not matching_pairs:
             return
             
-        new_text = full_text
-        for original, fake in matching_pairs:
-            new_text = new_text.replace(original, fake)
+        matches: List[Tuple[int, int, str]] = []
+        for orig, fake in matching_pairs:
+            start = 0
+            while True:
+                idx = full_text.find(orig, start)
+                if idx == -1:
+                    break
+                matches.append((idx, idx + len(orig), fake))
+                start = idx + 1
+                
+        matches.sort(key=lambda x: (x[0], -(x[1] - x[0])))
+        
+        non_overlapping = []
+        current_end = 0
+        for match in matches:
+            start_idx, end_idx, fake_val = match
+            if start_idx >= current_end:
+                non_overlapping.append(match)
+                current_end = end_idx
+                
+        parts = []
+        last_idx = 0
+        for start_idx, end_idx, fake_val in non_overlapping:
+            parts.append(full_text[last_idx:start_idx])
+            parts.append(fake_val)
+            last_idx = end_idx
+        parts.append(full_text[last_idx:])
+        
+        new_text = "".join(parts)
             
         runs = paragraph.runs
         if not runs:
             paragraph.text = new_text
             return
             
-        for idx in range(len(runs)):
-            for orig, fake in matching_pairs:
-                if orig in runs[idx].text:
-                    runs[idx].text = runs[idx].text.replace(orig, fake)
-
-        current_concat = "".join(r.text for r in runs)
-        if current_concat != new_text:
-            runs[0].text = new_text
-            for run in runs[1:]:
-                run.text = ""
+        runs[0].text = new_text
+        for run in runs[1:]:
+            run.text = ""
 
     def _replace_in_footnotes_xml(
         self, docx_file_path: str, sorted_pairs: List[Tuple[str, str]], scratch_dir: str
@@ -203,10 +222,38 @@ class DocumentHandler:
             for text_node in root.findall(".//w:t", ns):
                 if text_node.text:
                     node_text = text_node.text
+                    
+                    matches: List[Tuple[int, int, str]] = []
                     for original, fake in sorted_pairs:
-                        if original in node_text:
-                            node_text = node_text.replace(original, fake)
-                    text_node.text = node_text
+                        if original not in node_text:
+                            continue
+                        start = 0
+                        while True:
+                            idx = node_text.find(original, start)
+                            if idx == -1:
+                                break
+                            matches.append((idx, idx + len(original), fake))
+                            start = idx + 1
+                            
+                    if matches:
+                        matches.sort(key=lambda x: (x[0], -(x[1] - x[0])))
+                        non_overlapping = []
+                        current_end = 0
+                        for match in matches:
+                            start_idx, end_idx, fake_val = match
+                            if start_idx >= current_end:
+                                non_overlapping.append(match)
+                                current_end = end_idx
+                                
+                        parts = []
+                        last_idx = 0
+                        for start_idx, end_idx, fake_val in non_overlapping:
+                            parts.append(node_text[last_idx:start_idx])
+                            parts.append(fake_val)
+                            last_idx = end_idx
+                        parts.append(node_text[last_idx:])
+                        
+                        text_node.text = "".join(parts)
                     
             tree.write(footnotes_path, encoding="utf-8", xml_declaration=True)
             

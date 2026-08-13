@@ -3,6 +3,7 @@
 Implements tests for Non-Negotiable #2:
 Verifies that identical original entity strings receive consistent fake replacements
 across multiple lookups within a document execution session.
+Also validates format-preserving phone number generation (Bug #6 fix).
 No inline comments are present in the codebase — documentation is in docstrings.
 """
 import pytest
@@ -37,3 +38,34 @@ def test_configurable_locale() -> None:
     val_gb = engine_gb.get_replacement("Main Street", "LOCATION")
     assert isinstance(val_us, str)
     assert isinstance(val_gb, str)
+
+def test_phone_format_preservation_indian_mobile() -> None:
+    """Verify Indian +91 phone numbers preserve their format structure."""
+    engine = FakerEngine(locale="en_US", seed=42)
+    original = "+91 22 30752929"
+    fake = engine.get_replacement(original, "PHONE_NUMBER")
+    assert fake.startswith("+91")
+    assert len(fake) == len(original)
+    for i, char in enumerate(original):
+        if not char.isdigit() and char != '+':
+            assert fake[i] == char, f"Separator at position {i} not preserved: '{fake[i]}' != '{char}'"
+
+def test_phone_format_preservation_landline() -> None:
+    """Verify Indian landline numbers with leading zero preserve format."""
+    engine = FakerEngine(locale="en_US", seed=42)
+    original = "022-68052182"
+    fake = engine.get_replacement(original, "PHONE_NUMBER")
+    assert fake.startswith("0")
+    assert fake[3] == "-"
+    assert len(fake) == len(original)
+
+def test_phone_format_preservation_consistency() -> None:
+    """Verify format-preserving phone replacement maintains mapping consistency."""
+    engine = FakerEngine(locale="en_US", seed=42)
+    original = "+91-20-26234000"
+    first = engine.get_replacement(original, "PHONE_NUMBER")
+    second = engine.get_replacement(original, "PHONE_NUMBER")
+    assert first == second
+    assert first.startswith("+91")
+    assert first[3] == "-"
+    assert first[6] == "-"

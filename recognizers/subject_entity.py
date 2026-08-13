@@ -101,6 +101,7 @@ class SubjectEntityFilter:
         self.allowlist: Set[str] = set()
         self.subject_entity: Optional[str] = None
         self.subject_entity_canonical: Optional[str] = None
+        self.subject_entity_forms: Set[str] = set()
         
         if org_allowlist_path:
             self._load_allowlist(org_allowlist_path)
@@ -113,6 +114,10 @@ class SubjectEntityFilter:
                     cleaned_line = line.strip()
                     if cleaned_line and not cleaned_line.startswith("#"):
                         self.allowlist.add(cleaned_line)
+                        self.allowlist.add(cleaned_line.upper())
+                        canonical = self._canonicalize(cleaned_line)
+                        if canonical:
+                            self.allowlist.add(canonical)
         except OSError:
             pass
 
@@ -129,6 +134,7 @@ class SubjectEntityFilter:
         Groups legal entity variations (e.g. 'KSH International Limited' and 'KSH International') to accurately identify the primary subject entity.
         """
         canonical_map = {}
+        canonical_forms = {}
         filtered_counts = Counter()
         
         for mention in org_mentions:
@@ -148,15 +154,21 @@ class SubjectEntityFilter:
                 filtered_counts[canonical] += 1
                 if canonical not in canonical_map or len(clean_mention) > len(canonical_map[canonical]):
                     canonical_map[canonical] = clean_mention
+                
+                if canonical not in canonical_forms:
+                    canonical_forms[canonical] = set()
+                canonical_forms[canonical].add(clean_mention)
         
         if not filtered_counts:
             self.subject_entity = None
             self.subject_entity_canonical = None
+            self.subject_entity_forms = set()
             return None
             
         most_common_canonical = filtered_counts.most_common(1)[0][0]
         self.subject_entity_canonical = most_common_canonical
         self.subject_entity = canonical_map.get(most_common_canonical)
+        self.subject_entity_forms = canonical_forms.get(most_common_canonical, set())
         return self.subject_entity
 
     def should_redact(self, entity_text: str, entity_type: str) -> bool:
@@ -168,13 +180,16 @@ class SubjectEntityFilter:
         if entity_type != "ORGANIZATION":
             return True
             
-        if self.subject_entity and entity_text == self.subject_entity:
+        if self.subject_entity_forms and entity_text in self.subject_entity_forms:
             return False
             
-        if self.subject_entity_canonical and self._canonicalize(entity_text) == self.subject_entity_canonical:
-            return False
-            
-        if entity_text in self.allowlist or self._canonicalize(entity_text) in self.allowlist:
-            return False
-            
+        entity_canonical = self._canonicalize(entity_text)
+        if self.subject_entity_canonical and entity_canonical:
+            if entity_canonical in self.subject_entity_canonical or self.subject_entity_canonical in entity_canonical:
+                return False
+                
+        for entry in self.allowlist:
+            if re.search(r"\b" + re.escape(entry) + r"\b", entity_text, re.IGNORECASE):
+                return False
+                
         return True

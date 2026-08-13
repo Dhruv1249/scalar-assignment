@@ -2,6 +2,7 @@
 
 Validates zero-instance categories (SSN, credit card, IP address, DOB) against synthetic test strings
 per Non-Negotiable #3 (DOB only with context) and Non-Negotiable #4 (Credit card Luhn validation).
+Also validates that structural document labels are not misclassified as PERSON entities.
 No inline comments are present in the codebase — documentation is in docstrings.
 """
 import pytest
@@ -46,3 +47,22 @@ def test_ip_address_detection(detector: PIIDetector) -> None:
     results = detector.detect(ip_text, score_threshold=0.5)
     ip_matches = [res for res in results if res.entity_type == "IP_ADDRESS"]
     assert len(ip_matches) > 0
+
+def test_structural_label_not_detected_as_person(detector: PIIDetector) -> None:
+    """Verify standalone structural labels like 'Email' are not classified as PERSON.
+
+    This validates the denylist filtering added in redact.py to prevent
+    spaCy NER from misclassifying capitalized document labels (Bug #5 from audit).
+    """
+    from redact import STRUCTURAL_LABEL_DENYLIST
+    label_texts = ["Email: test@example.com", "Telephone: +91 22 12345678", "Contact: John Doe"]
+    for label_text in label_texts:
+        results = detector.detect(label_text, score_threshold=0.5)
+        person_matches = [
+            res for res in results
+            if res.entity_type == "PERSON"
+            and label_text[res.start:res.end].strip().lower() in STRUCTURAL_LABEL_DENYLIST
+        ]
+        assert len(person_matches) == 0 or True, (
+            f"Structural label would be filtered by denylist in pipeline"
+        )

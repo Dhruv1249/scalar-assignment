@@ -11,6 +11,7 @@ All code documentation is provided via docstrings — no inline comments.
 """
 from collections import defaultdict
 from typing import Dict, Any, Callable
+import re
 from faker import Faker
 
 class FakerEngine:
@@ -29,9 +30,9 @@ class FakerEngine:
         self.generators: Dict[str, Callable[[], str]] = {
             "PERSON": self.fake.name,
             "EMAIL_ADDRESS": self.fake.email,
-            "PHONE_NUMBER": lambda: f"+1-{self.fake.numerify('###-###-####')}",
+            "PHONE_NUMBER": lambda: self.fake.numerify("##########"),
             "LOCATION": lambda: f"{self.fake.street_address()}, {self.fake.city()}",
-            "ORGANIZATION": lambda: f"{self.fake.company()} {self.fake.company_suffix()}",
+            "ORGANIZATION": self.fake.company,
             "CREDIT_CARD": self.fake.credit_card_number,
             "US_SSN": self.fake.ssn,
             "IP_ADDRESS": self.fake.ipv4,
@@ -40,6 +41,25 @@ class FakerEngine:
             "IN_CIN": lambda: f"U{self.fake.numerify('#####')}MH{self.fake.numerify('####')}PTC{self.fake.numerify('######')}",
             "IN_DIN": lambda: self.fake.numerify("########"),
         }
+
+    def _generate_format_preserving_phone(self, original: str) -> str:
+        """Generate a format-preserving phone number replacing only non-prefix digits."""
+        result = []
+        prefix_len = 0
+        match = re.match(r'^(\+\s?\d{1,3})', original)
+        if match:
+            prefix_len = len(match.group(1))
+        elif original.startswith("0"):
+            prefix_len = 1
+
+        for i, char in enumerate(original):
+            if i < prefix_len:
+                result.append(char)
+            elif char.isdigit():
+                result.append(str(self.fake.random_digit()))
+            else:
+                result.append(char)
+        return "".join(result)
 
     def get_replacement(self, original_text: str, entity_type: str) -> str:
         """Retrieve cached fake value or generate and store a new consistent fake value.
@@ -52,11 +72,14 @@ class FakerEngine:
             return original_text
             
         if stripped_original not in self.mapping[entity_type]:
-            generator_func = self.generators.get(entity_type)
-            if generator_func:
-                fake_value = generator_func()
+            if entity_type == "PHONE_NUMBER":
+                fake_value = self._generate_format_preserving_phone(stripped_original)
             else:
-                fake_value = f"[REDACTED_{entity_type}]"
+                generator_func = self.generators.get(entity_type)
+                if generator_func:
+                    fake_value = generator_func()
+                else:
+                    fake_value = f"[REDACTED_{entity_type}]"
                 
             self.mapping[entity_type][stripped_original] = fake_value
             
